@@ -1,0 +1,15 @@
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/broll_ferrum_doctrine_004/scene_01.png'
+duration 6.720
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/broll_ferrum_doctrine_004/scene_02.png'
+duration 6.720
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/broll_ferrum_doctrine_004/scene_03.png'
+duration 6.720
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/broll_ferrum_doctrine_004/scene_04.png'
+duration 6.720
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/broll_ferrum_doctrine_004/scene_05.png'
+duration 6.720
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/broll_ferrum_doctrine_004/scene_06.png'
+duration 6.720
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/broll_ferrum_doctrine_004/scene_07.png'
+duration 6.720
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/broll_ferrum_doctrine_004/scene_07.png'

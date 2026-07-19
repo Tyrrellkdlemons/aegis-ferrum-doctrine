@@ -1,0 +1,38 @@
+{
+  "platform": "youtube",
+  "content_id": "ferrum-doctrine-004",
+  "file": "final_long.mp4",
+  "title": "Build a Mental Fortress Against Digital Noise | Ferrum Doctrine",
+  "description": "If your attention is for rent, your life is already owned.\n\nComment FORTRESS if you're locking the first hour tomorrow.\n\nFerrum Doctrine — discipline without apology.\n",
+  "tags": [
+    "ferrum doctrine",
+    "discipline",
+    "stoicism for men",
+    "self improvement men",
+    "mental toughness",
+    "masculine presence",
+    "anti comfort",
+    "self mastery",
+    "hard truths for men",
+    "focus",
+    "habit building",
+    "sovereignty"
+  ],
+  "thumbnail": "thumbnail_final.png",
+  "schedule": "2026-07-22T12:00:00Z",
+  "status": "ready",
+  "retention_hooks": [
+    "If your attention is for rent, your life is already owned.",
+    "pattern interrupt every 20s",
+    "Comment FORTRESS if you're locking the first hour tomorrow."
+  ],
+  "monetization": {
+    "midroll": true,
+    "affiliate_links": [],
+    "pinned_comment": "Comment FORTRESS if you're locking the first hour tomorrow."
+  },
+  "secondary_files": [
+    "final_short.mp4"
+  ],
+  "audio_source": "assets/voice/ferrum-doctrine-004_phoenix.mp3"
+}

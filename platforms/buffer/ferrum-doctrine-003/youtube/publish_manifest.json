@@ -1,0 +1,38 @@
+{
+  "platform": "youtube",
+  "content_id": "ferrum-doctrine-003",
+  "file": "final_long.mp4",
+  "title": "The Spy Method: Read Any Room in 10 Seconds | Ferrum Doctrine",
+  "description": "Speak first and you lose. Read first and you own the next five minutes.\n\nComment TERRAIN if you're running the ten-second scan for 7 days.\n\nFerrum Doctrine — discipline without apology.\n",
+  "tags": [
+    "ferrum doctrine",
+    "discipline",
+    "stoicism for men",
+    "self improvement men",
+    "mental toughness",
+    "masculine presence",
+    "anti comfort",
+    "self mastery",
+    "hard truths for men",
+    "focus",
+    "habit building",
+    "sovereignty"
+  ],
+  "thumbnail": "thumbnail_final.png",
+  "schedule": "2026-07-21T12:00:00Z",
+  "status": "ready",
+  "retention_hooks": [
+    "Speak first and you lose. Read first and you own the next five minutes.",
+    "pattern interrupt every 20s",
+    "Comment TERRAIN if you're running the ten-second scan for 7 days."
+  ],
+  "monetization": {
+    "midroll": true,
+    "affiliate_links": [],
+    "pinned_comment": "Comment TERRAIN if you're running the ten-second scan for 7 days."
+  },
+  "secondary_files": [
+    "final_short.mp4"
+  ],
+  "audio_source": "assets/voice/ferrum-doctrine-003_phoenix.mp3"
+}

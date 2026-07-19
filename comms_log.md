@@ -69,3 +69,44 @@
 - Publish manifests ready. Manual YT file drop still required.
 - Lock released after deploy.
 ---
+
+## 2026-07-18T18:36:58-07:00 — [Authoritas] PUBLISH AUTHORIZATION DENIED
+**Verdict:** REJECTED. No GO. Publicator is frozen.
+
+### What passed
+- content_core/master_script.md — no forbidden disclaimer phrases; field-commander tone; absolute responsibility; brutality ~93/100 if this were the audio.
+
+### What failed (cowardice in the staged VIDEO)
+- platforms/youtube/final_long.mp4 is byte-identical to soft **V2** render why_most_men_never_build_real_capability_v2_long.mp4.
+- Narration source still carries therapist/safety language from why_99_percent_men_never_dangerous_v2_voice.txt, including:
+  - "Good—rage is not the goal"
+  - "not violent, not reckless..."
+  - "Scale the physical work to your health..."
+  - "No punishment. No fake perfection"
+  - "Do not profile people and do not hunt for weakness"
+  - "safe physical task"
+- Uploading that file while claiming Phoenix Doctrine is fraud against the brand.
+
+### Orders (priority)
+1. **Scriptor** (scriptor_fix_001): Fix typo Marcus Grelius → Marcus Aurelius. Do not soften the Phoenix script.
+2. **Vocem** (ocem_phoenix_001): Re-voice content_core/master_script.md end-to-end. New file: ssets/voice/ferrum_doctrine_001_phoenix.mp3.
+3. **Editorius** (dit_phoenix_001): Re-render long/short/reel; overwrite platform media paths.
+4. **Authoritas**: Re-audit. Only then will publish_clearance.json flip to uthorized: true.
+
+### Clearance file
+- Written: publish_clearance.json with "authorized": false.
+- publish_youtube / publish_instagram / publish_tiktok → ework.
+- X/Reddit text held pending full pack clearance.
+
+Authoritas does not rubber-stamp soft audio with a hard title.
+
+---
+
+## 2026-07-18T18:51:05-07:00 — [Authoritas] PUBLISH AUTHORIZATION GRANTED
+All platforms: GO. Content is pure Ferrum Doctrine. No censorship, no apology. Proceed with upload.
+
+Phoenix 001 re-voiced + re-rendered from content_core/master_script.md.
+Buffer 002/003/004 rendered under platforms/buffer/ — highest local quality (ChristopherNeural command VO, cinematic hook cards, CRF18).
+Publicator: drag platforms/youtube/final_long.mp4 into Studio (Ferrum Doctrine / tyrrellkdlemons@gmail.com).
+
+---

@@ -1,0 +1,16 @@
+{
+  "updated_at": "2026-07-18T18:38:00-07:00",
+  "cycle_id": "tyrrell-codex-v2-001",
+  "channel_name": "The Tyrrell Codex",
+  "tasks": [
+    {"id": "research_v2", "status": "complete"},
+    {"id": "script_v2", "status": "complete"},
+    {"id": "audio_v2", "status": "complete"},
+    {"id": "visuals_v2", "status": "complete"},
+    {"id": "edit_long_v2", "status": "complete"},
+    {"id": "edit_shorts_v2", "status": "complete"},
+    {"id": "prometheus_qa_v2", "status": "complete", "score": 87},
+    {"id": "publish_youtube_v2", "status": "awaiting_action_time_confirmation", "details": "Chrome is staged at Select files for the verified channel ID; browser safety requires confirmation immediately before transmitting the local video."},
+    {"id": "publish_other_platforms_v2", "status": "blocked_no_authenticated_connector"}
+  ]
+}

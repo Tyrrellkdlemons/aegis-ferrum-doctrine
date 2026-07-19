@@ -1,0 +1,38 @@
+{
+  "platform": "youtube",
+  "content_id": "ferrum-doctrine-002",
+  "file": "final_long.mp4",
+  "title": "Soft Habits That Quietly Kill Ambition (Before You Notice) | Ferrum Doctrine",
+  "description": "Your ambition didn't die in a crisis. It bled out in habits you call 'harmless.'\n\nComment KILL LIST with the habit you're executing this week.\n\nFerrum Doctrine — discipline without apology.\n",
+  "tags": [
+    "ferrum doctrine",
+    "discipline",
+    "stoicism for men",
+    "self improvement men",
+    "mental toughness",
+    "masculine presence",
+    "anti comfort",
+    "self mastery",
+    "hard truths for men",
+    "focus",
+    "habit building",
+    "sovereignty"
+  ],
+  "thumbnail": "thumbnail_final.png",
+  "schedule": "2026-07-20T12:00:00Z",
+  "status": "ready",
+  "retention_hooks": [
+    "Your ambition didn't die in a crisis. It bled out in habits you call 'harmless.'",
+    "pattern interrupt every 20s",
+    "Comment KILL LIST with the habit you're executing this week."
+  ],
+  "monetization": {
+    "midroll": true,
+    "affiliate_links": [],
+    "pinned_comment": "Comment KILL LIST with the habit you're executing this week."
+  },
+  "secondary_files": [
+    "final_short.mp4"
+  ],
+  "audio_source": "assets/voice/ferrum-doctrine-002_phoenix.mp3"
+}

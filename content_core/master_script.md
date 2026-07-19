@@ -34,7 +34,7 @@ Look at the pattern without flinching:
 
 1. **Comfort is your religion.** The second friction appears, you narcotize — scroll, porn, food, noise, “just one more episode.” Your nervous system has been trained like a pet.
 2. **You perform masculinity instead of earning it.** Quotes. Cold showers for the camera. Statue filters. Then a real decision threatens status or sex or money and you fold like paper.
-3. **You confuse numbness with Stoicism.** Marcus Grelius did not write so you could ghost your own emotions and call it philosophy. Going blank is cowardice with better branding. Command is accurate perception + deliberate action.
+3. **You confuse numbness with Stoicism.** Marcus Aurelius did not write so you could ghost your own emotions and call it philosophy. Going blank is cowardice with better branding. Command is accurate perception + deliberate action.
 4. **You have no drills.** Motivation is a mood. Capability is rehearsal. Under stress, unrehearsed men become passengers in their own body.
 
 If that offends you, good. Offense is cheaper than mediocrity and lasts five minutes.

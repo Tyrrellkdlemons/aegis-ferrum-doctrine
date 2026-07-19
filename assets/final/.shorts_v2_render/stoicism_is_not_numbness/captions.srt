@@ -1,26 +1,38 @@
 1
-00:00:00,000 --> 00:00:02,524
+00:00:00,000 --> 00:00:02,555
 Stoicism is not feeling
 nothing.
 
 2
-00:00:02,524 --> 00:00:08,835
+00:00:02,555 --> 00:00:05,509
 It is noticing anger,
-fear, and pride without
-letting them write your
+fear, and pride
 
 3
-00:00:08,835 --> 00:00:11,280
+00:00:05,509 --> 00:00:08,383
+without letting them
+write your next
+
+4
+00:00:08,383 --> 00:00:08,782
+move.
+
+5
+00:00:08,782 --> 00:00:11,257
 When provoked, take one
 breath.
 
-4
-00:00:11,280 --> 00:00:16,881
+6
+00:00:11,257 --> 00:00:14,211
 Ask what the objective
 is: clarity, a
-boundary, a decision,
 
-5
-00:00:16,881 --> 00:00:19,800
+7
+00:00:14,211 --> 00:00:16,846
+boundary, a decision,
+or silence.
+
+8
+00:00:16,846 --> 00:00:19,800
 Answer the objective,
 not the insult.

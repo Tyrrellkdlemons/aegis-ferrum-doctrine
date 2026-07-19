@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-07-18T18:46:27-07:00",
+  "items": [
+    {
+      "content_id": "ferrum-doctrine-002",
+      "title": "Soft Habits That Quietly Kill Ambition (Before You Notice)",
+      "when": "2026-07-20T12:00:00Z",
+      "status": "queued_buffer",
+      "hook": "Your ambition didn't die in a crisis. It bled out in habits you call 'harmless.'"
+    },
+    {
+      "content_id": "ferrum-doctrine-003",
+      "title": "The Spy Method: Read Any Room in 10 Seconds",
+      "when": "2026-07-21T12:00:00Z",
+      "status": "queued_buffer",
+      "hook": "Speak first and you lose. Read first and you own the next five minutes."
+    },
+    {
+      "content_id": "ferrum-doctrine-004",
+      "title": "Build a Mental Fortress Against Digital Noise",
+      "when": "2026-07-22T12:00:00Z",
+      "status": "queued_buffer",
+      "hook": "If your attention is for rent, your life is already owned."
+    }
+  ]
+}

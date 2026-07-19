@@ -5,8 +5,8 @@
   "secondary_files": [
     "final_short.mp4"
   ],
-  "title": "Why Most Men Will Never Be Dangerous \u2014 And Why That Should Terrify You | Ferrum Doctrine",
-  "description": "Most men volunteered to be soft \u2014 then lied about why.\n\nDanger is not rage. Danger is optionality under pressure.\n21-day field protocol inside. Comment OPERATIVE if you're done performing.\n\nTIMESTAMPS\n0:00 Soft by consent\n0:25 What dangerous actually means\n1:10 Four traps that keep you weak\n2:00 21-day drills\nLast: Pressure test\n\nFerrum Doctrine \u2014 discipline without apology.\n",
+  "title": "Why Most Men Will Never Be Dangerous — And Why That Should Terrify You | Ferrum Doctrine",
+  "description": "Most men volunteered to be soft — then lied about why.\n\nDanger is not rage. Danger is optionality under pressure.\n21-day field protocol inside. Comment OPERATIVE if you're done performing.\n\nTIMESTAMPS\n0:00 Soft by consent\n0:25 What dangerous actually means\n1:10 Four traps that keep you weak\n2:00 21-day drills\nLast: Pressure test\n\nFerrum Doctrine — discipline without apology.\n",
   "tags": [
     "become dangerous",
     "stoic discipline",
@@ -39,10 +39,13 @@
   ],
   "thumbnail": "thumbnail_final.png",
   "schedule": "2026-07-19T12:00:00Z",
-  "status": "ready",
+  "status": "approved",
   "monetization": {
     "midroll": true,
     "affiliate_links": [],
-    "pinned_comment": "Comment OPERATIVE. Funnel URL pending \u2014 do not invent links."
-  }
+    "pinned_comment": "Comment OPERATIVE. Funnel URL pending — do not invent links."
+  },
+  "audio_source": "assets/voice/ferrum_doctrine_001_phoenix.mp3",
+  "script_source": "content_core/master_script.md",
+  "render": "phoenix_v1"
 }

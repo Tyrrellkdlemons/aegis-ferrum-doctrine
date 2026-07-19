@@ -1,25 +1,46 @@
 1
-00:00:00,000 --> 00:00:03,766
+00:00:00,000 --> 00:00:02,661
 Stop designing heroic
-routines you cannot
-repeat.
+routines you
 
 2
-00:00:03,766 --> 00:00:14,373
-Pick one realistic
-promise for twenty-one
-days: a sleep window, a
+00:00:02,661 --> 00:00:03,757
+cannot repeat.
 
 3
-00:00:14,373 --> 00:00:15,141
-Miss once?
+00:00:03,757 --> 00:00:06,105
+Pick one realistic
+promise for
 
 4
-00:00:15,141 --> 00:00:18,523
-Record why, remove the
-obstacle, and resume.
+00:00:06,105 --> 00:00:08,766
+twenty-one days: a
+sleep window, a
 
 5
-00:00:18,523 --> 00:00:21,290
+00:00:08,766 --> 00:00:11,663
+training block, or
+forty-five minutes
+
+6
+00:00:11,663 --> 00:00:14,324
+of deep work before
+entertainment.
+
+7
+00:00:14,324 --> 00:00:15,107
+Miss once?
+
+8
+00:00:15,107 --> 00:00:17,924
+Record why, remove the
+obstacle, and
+
+9
+00:00:17,924 --> 00:00:18,472
+resume.
+
+10
+00:00:18,472 --> 00:00:21,290
 Discipline is evidence,
 not theater.

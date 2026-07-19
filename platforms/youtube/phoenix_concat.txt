@@ -1,0 +1,31 @@
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/phoenix_broll/scene_01.png'
+duration 22.845
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/phoenix_broll/scene_02.png'
+duration 22.845
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/phoenix_broll/scene_03.png'
+duration 22.845
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/phoenix_broll/scene_04.png'
+duration 22.845
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/phoenix_broll/scene_05.png'
+duration 22.845
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/phoenix_broll/scene_06.png'
+duration 22.845
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/phoenix_broll/scene_07.png'
+duration 22.845
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/phoenix_broll/scene_08.png'
+duration 22.845
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/phoenix_broll/scene_09.png'
+duration 22.845
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/phoenix_broll/scene_10.png'
+duration 22.845
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/phoenix_broll/scene_11.png'
+duration 22.845
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/phoenix_broll/scene_12.png'
+duration 22.845
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/phoenix_broll/scene_13.png'
+duration 22.845
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/phoenix_broll/scene_14.png'
+duration 22.845
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/phoenix_broll/scene_15.png'
+duration 22.845
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/phoenix_broll/scene_15.png'

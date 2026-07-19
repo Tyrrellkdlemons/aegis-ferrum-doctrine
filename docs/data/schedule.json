@@ -1,12 +1,16 @@
 {
-  "content_id": "ferrum-doctrine-001",
-  "brutality_score": 93,
+  "content_id": "ferrum-doctrine-pipeline",
+  "brutality_score": 96,
   "brand": "Ferrum Doctrine",
+  "clearance": "authorized",
   "posts": [
-    { "platform": "youtube", "piece": "Long-form + Short", "when": "2026-07-19T12:00:00Z", "status": "ready", "file": "final_long.mp4" },
-    { "platform": "x", "piece": "8-tweet thread", "when": "2026-07-19T13:00:00Z", "status": "ready", "file": "thread.txt" },
-    { "platform": "instagram", "piece": "Reel + carousel", "when": "2026-07-19T17:00:00Z", "status": "ready", "file": "final_reel.mp4" },
-    { "platform": "tiktok", "piece": "Vertical short", "when": "2026-07-19T18:30:00Z", "status": "ready", "file": "final_tiktok.mp4" },
-    { "platform": "reddit", "piece": "Value post", "when": "2026-07-20T15:00:00Z", "status": "ready", "file": "post.md" }
+    { "platform": "youtube", "piece": "001 Why Most Men Will Never Be Dangerous", "when": "2026-07-19T12:00:00Z", "status": "approved", "file": "platforms/youtube/final_long.mp4" },
+    { "platform": "x", "piece": "001 thread", "when": "2026-07-19T13:00:00Z", "status": "approved", "file": "platforms/x/thread.txt" },
+    { "platform": "instagram", "piece": "001 reel", "when": "2026-07-19T17:00:00Z", "status": "approved", "file": "platforms/instagram/final_reel.mp4" },
+    { "platform": "tiktok", "piece": "001 short", "when": "2026-07-19T18:30:00Z", "status": "approved", "file": "platforms/tiktok/final_tiktok.mp4" },
+    { "platform": "reddit", "piece": "001 post", "when": "2026-07-20T15:00:00Z", "status": "approved", "file": "platforms/reddit/post.md" },
+    { "platform": "youtube", "piece": "002 Soft Habits Kill Ambition", "when": "2026-07-20T12:00:00Z", "status": "ready", "file": "platforms/buffer/ferrum-doctrine-002/youtube/final_long.mp4" },
+    { "platform": "youtube", "piece": "003 Spy Method Room Read", "when": "2026-07-21T12:00:00Z", "status": "ready", "file": "platforms/buffer/ferrum-doctrine-003/youtube/final_long.mp4" },
+    { "platform": "youtube", "piece": "004 Mental Fortress Digital Noise", "when": "2026-07-22T12:00:00Z", "status": "ready", "file": "platforms/buffer/ferrum-doctrine-004/youtube/final_long.mp4" }
   ]
 }

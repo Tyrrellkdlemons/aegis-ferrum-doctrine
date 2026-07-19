@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T18:35:00-07:00",
+  "updated_at": "2026-07-18T19:00:00-07:00",
   "mode": "PHOENIX",
   "lock": {
     "file": ".aegis.lock",
@@ -14,14 +14,54 @@
     "rename_status": "do_not_rename_again"
   },
   "roles": {
-    "Strategos": {"assignee": "SOVEREIGN", "status": "complete"},
-    "Scriptor": {"assignee": "SOVEREIGN", "status": "complete", "note": "Phoenix brutal master_script written"},
-    "Visualis": {"assignee": "SOVEREIGN", "status": "complete"},
-    "Aestheticus": {"assignee": "SOVEREIGN", "status": "complete"},
-    "Editorius": {"assignee": "SOVEREIGN", "status": "complete"},
-    "Publicator": {"assignee": "SOVEREIGN", "status": "ready_manual_upload"},
-    "Dashboard": {"assignee": "SOVEREIGN", "status": "deploying"},
-    "Analytica": {"assignee": null, "status": "idle"},
-    "Custos": {"assignee": null, "status": "idle"}
+    "Strategos": {
+      "assignee": "SOVEREIGN",
+      "status": "complete"
+    },
+    "Scriptor": {
+      "assignee": "SOVEREIGN",
+      "status": "complete",
+      "note": "Phoenix brutal master_script written"
+    },
+    "Visualis": {
+      "assignee": "SOVEREIGN",
+      "status": "complete"
+    },
+    "Aestheticus": {
+      "assignee": "SOVEREIGN",
+      "status": "complete"
+    },
+    "Editorius": {
+      "assignee": "SOVEREIGN",
+      "status": "complete",
+      "last_update": "2026-07-18T19:00:00-07:00"
+    },
+    "Publicator": {
+      "assignee": null,
+      "status": "go_upload",
+      "last_update": "2026-07-18T19:00:00-07:00"
+    },
+    "Dashboard": {
+      "assignee": "SOVEREIGN",
+      "status": "deploying"
+    },
+    "Analytica": {
+      "assignee": null,
+      "status": "idle"
+    },
+    "Custos": {
+      "assignee": null,
+      "status": "idle"
+    },
+    "Authoritas": {
+      "assignee": "Authoritas",
+      "status": "clearance_granted",
+      "last_update": "2026-07-18T19:00:00-07:00"
+    },
+    "Vocem": {
+      "assignee": "SOVEREIGN",
+      "status": "complete",
+      "last_update": "2026-07-18T19:00:00-07:00"
+    }
   }
 }

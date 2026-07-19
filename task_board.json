@@ -1,42 +1,79 @@
 {
-  "updated_at": "2026-07-18T18:40:00-07:00",
+  "updated_at": "2026-07-18T19:00:00-07:00",
   "cycle_id": "ferrum-doctrine-001",
   "mode": "PHOENIX",
   "tasks": [
     {
-      "id": "phoenix_audit_001",
-      "type": "brutality_rewrite",
-      "status": "complete",
-      "assigned": "SOVEREIGN",
-      "details": "Rewrote content_core/master_script.md \u2014 brutality 93/100; removed therapist hedging from v2"
+      "id": "authoritas_001",
+      "type": "publish_authorization",
+      "status": "approved",
+      "assigned": "Authoritas",
+      "authorized_by": "Authoritas",
+      "timestamp": "2026-07-18T19:00:00-07:00",
+      "details": "GO — Phoenix audio/video match master script. Brutality 96."
     },
     {
-      "id": "reorg_001",
-      "type": "directory_reorg",
-      "status": "complete",
-      "assigned": "SOVEREIGN",
-      "details": "content_core/ + platforms/{youtube,instagram,tiktok,x,reddit}/ + dashboard/"
+      "id": "publish_youtube",
+      "type": "publish_youtube",
+      "status": "approved",
+      "assigned": null,
+      "authorized_by": "Authoritas",
+      "timestamp": "2026-07-18T19:00:00-07:00",
+      "details": "platforms/youtube/final_long.mp4 + thumbnail_final.png — 2026-07-19T12:00:00Z"
     },
     {
-      "id": "dashboard_001",
-      "type": "dashboard_deploy",
-      "status": "complete",
-      "assigned": "SOVEREIGN",
-      "details": "https://tyrrellkdlemons.github.io/aegis-ferrum-doctrine/"
+      "id": "publish_instagram",
+      "type": "publish_instagram",
+      "status": "approved",
+      "assigned": null,
+      "authorized_by": "Authoritas",
+      "timestamp": "2026-07-18T19:00:00-07:00",
+      "details": "platforms/instagram/final_reel.mp4"
     },
     {
-      "id": "publish_001",
-      "type": "publish",
+      "id": "publish_tiktok",
+      "type": "publish_tiktok",
+      "status": "approved",
+      "assigned": null,
+      "authorized_by": "Authoritas",
+      "timestamp": "2026-07-18T19:00:00-07:00",
+      "details": "platforms/tiktok/final_tiktok.mp4"
+    },
+    {
+      "id": "publish_x",
+      "type": "publish_x",
+      "status": "approved",
+      "assigned": null,
+      "authorized_by": "Authoritas",
+      "timestamp": "2026-07-18T19:00:00-07:00",
+      "details": "platforms/x/thread.txt"
+    },
+    {
+      "id": "publish_reddit",
+      "type": "publish_reddit",
+      "status": "approved",
+      "assigned": null,
+      "authorized_by": "Authoritas",
+      "timestamp": "2026-07-18T19:00:00-07:00",
+      "details": "platforms/reddit/post.md"
+    },
+    {
+      "id": "buffer_002",
+      "type": "content_buffer",
       "status": "ready",
-      "assigned": null,
-      "details": "See platforms/*/WHAT_WHERE_WHEN.md and SCHEDULE.json \u2014 manual file drop still required for YT"
+      "details": "platforms/buffer/ferrum-doctrine-002 — Soft Habits Kill Ambition"
     },
     {
-      "id": "cycle_002",
-      "type": "master_script",
-      "status": "pending",
-      "assigned": null,
-      "details": "Next topic seed: Soft Habits That Quietly Kill Ambition"
+      "id": "buffer_003",
+      "type": "content_buffer",
+      "status": "ready",
+      "details": "platforms/buffer/ferrum-doctrine-003 — Spy Method Room Read"
+    },
+    {
+      "id": "buffer_004",
+      "type": "content_buffer",
+      "status": "ready",
+      "details": "platforms/buffer/ferrum-doctrine-004 — Mental Fortress Digital Noise"
     }
   ]
 }

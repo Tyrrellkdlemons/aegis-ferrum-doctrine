@@ -1,0 +1,35 @@
+{
+  "schema_version": 2,
+  "agent": "Aestheticus",
+  "prefix": "[PROMETHEUS]",
+  "asset_family": "why_most_men_never_build_real_capability_v2",
+  "operative_score": 87,
+  "publish_threshold": 85,
+  "thumbnail_score": 93,
+  "thumbnail_threshold": 90,
+  "status": "clear_for_upload",
+  "timestamp": "2026-07-18T18:38:00-07:00",
+  "long_form": {
+    "path": "assets/final/why_most_men_never_build_real_capability_v2_long.mp4",
+    "duration_seconds": 398.96,
+    "bytes": 86854244,
+    "video": "H.264 High 1920x1080 24fps",
+    "audio": "AAC mono 96kHz",
+    "mean_volume_db": -16.8,
+    "peak_volume_db": -1.0,
+    "sha256": "C5AD6DC35EEFA301C1AED0AD2F383B96B730B69F8B4C67F418D9CEEA61A0D07A",
+    "decode_check": "pass"
+  },
+  "approved_verticals": [
+    "assets/final/shorts_v2/01_danger_is_not_rage.mp4",
+    "assets/final/shorts_v2/02_stoicism_is_not_numbness.mp4",
+    "assets/final/shorts_v2/03_one_promise_rebuilds_self_trust.mp4"
+  ],
+  "rejected_asset": "initial center-cropped short with clipped captions",
+  "required_upload_settings": {
+    "altered_or_synthetic_content": true,
+    "made_for_kids": false,
+    "affiliate_links": false
+  },
+  "report": "prometheus/qa_report_v2.md"
+}
