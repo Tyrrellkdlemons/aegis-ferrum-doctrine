@@ -110,3 +110,11 @@ Buffer 002/003/004 rendered under platforms/buffer/ — highest local quality (C
 Publicator: drag platforms/youtube/final_long.mp4 into Studio (Ferrum Doctrine / tyrrellkdlemons@gmail.com).
 
 ---
+
+## 2026-07-18T19:05 — [Directory] Codex-aligned reorganize
+- WHERE.md created. Cycles under content_core/cycles/FD-00N_*.
+- Current upload: platforms/youtube/FD-001_release/.
+- Upcoming: platforms/upcoming/FD-002..004.
+- Legacy clutter → archive/ + assets/archive_legacy_renders/.
+---
+

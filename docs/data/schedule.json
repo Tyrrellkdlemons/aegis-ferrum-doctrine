@@ -1,16 +1,64 @@
 {
-  "content_id": "ferrum-doctrine-pipeline",
-  "brutality_score": 96,
-  "brand": "Ferrum Doctrine",
-  "clearance": "authorized",
+  "content_id": "FD-pipeline",
+  "brutality_score": 91,
+  "brand": "The Tyrrell Codex / Ferrum Doctrine",
+  "clearance": "local_ready_not_uploaded",
   "posts": [
-    { "platform": "youtube", "piece": "001 Why Most Men Will Never Be Dangerous", "when": "2026-07-19T12:00:00Z", "status": "approved", "file": "platforms/youtube/final_long.mp4" },
-    { "platform": "x", "piece": "001 thread", "when": "2026-07-19T13:00:00Z", "status": "approved", "file": "platforms/x/thread.txt" },
-    { "platform": "instagram", "piece": "001 reel", "when": "2026-07-19T17:00:00Z", "status": "approved", "file": "platforms/instagram/final_reel.mp4" },
-    { "platform": "tiktok", "piece": "001 short", "when": "2026-07-19T18:30:00Z", "status": "approved", "file": "platforms/tiktok/final_tiktok.mp4" },
-    { "platform": "reddit", "piece": "001 post", "when": "2026-07-20T15:00:00Z", "status": "approved", "file": "platforms/reddit/post.md" },
-    { "platform": "youtube", "piece": "002 Soft Habits Kill Ambition", "when": "2026-07-20T12:00:00Z", "status": "ready", "file": "platforms/buffer/ferrum-doctrine-002/youtube/final_long.mp4" },
-    { "platform": "youtube", "piece": "003 Spy Method Room Read", "when": "2026-07-21T12:00:00Z", "status": "ready", "file": "platforms/buffer/ferrum-doctrine-003/youtube/final_long.mp4" },
-    { "platform": "youtube", "piece": "004 Mental Fortress Digital Noise", "when": "2026-07-22T12:00:00Z", "status": "ready", "file": "platforms/buffer/ferrum-doctrine-004/youtube/final_long.mp4" }
+    {
+      "platform": "youtube",
+      "piece": "FD-001 long",
+      "when": "2026-07-19T12:00:00Z",
+      "status": "ready_local",
+      "file": "platforms/youtube/FD-001_release/01_long.mp4"
+    },
+    {
+      "platform": "x",
+      "piece": "FD-001 thread",
+      "when": "2026-07-19T13:00:00Z",
+      "status": "ready_local",
+      "file": "platforms/x/FD-001_release/01_thread.txt"
+    },
+    {
+      "platform": "instagram",
+      "piece": "FD-001 reel",
+      "when": "2026-07-19T17:00:00Z",
+      "status": "ready_local",
+      "file": "platforms/instagram/FD-001_release/01_reel.mp4"
+    },
+    {
+      "platform": "tiktok",
+      "piece": "FD-001 short",
+      "when": "2026-07-19T18:30:00Z",
+      "status": "ready_local",
+      "file": "platforms/tiktok/FD-001_release/01_tiktok.mp4"
+    },
+    {
+      "platform": "reddit",
+      "piece": "FD-001 post",
+      "when": "2026-07-20T15:00:00Z",
+      "status": "ready_local",
+      "file": "platforms/reddit/FD-001_release/01_post.md"
+    },
+    {
+      "platform": "youtube",
+      "piece": "FD-002 Soft Habits",
+      "when": "2026-07-20T12:00:00Z",
+      "status": "upcoming",
+      "file": "platforms/upcoming/FD-002_soft-habits/youtube/"
+    },
+    {
+      "platform": "youtube",
+      "piece": "FD-003 Spy Room",
+      "when": "2026-07-21T12:00:00Z",
+      "status": "upcoming",
+      "file": "platforms/upcoming/FD-003_spy-room-read/youtube/"
+    },
+    {
+      "platform": "youtube",
+      "piece": "FD-004 Mental Fortress",
+      "when": "2026-07-22T12:00:00Z",
+      "status": "upcoming",
+      "file": "platforms/upcoming/FD-004_mental-fortress/youtube/"
+    }
   ]
 }

@@ -1,54 +1,66 @@
 {
-  "content_id": "ferrum-doctrine-pipeline",
-  "clearance": "authorized",
+  "schema_version": 2,
+  "channel": "The Tyrrell Codex",
+  "series": "Ferrum Doctrine",
+  "timezone": "America/Los_Angeles",
+  "updated_at": "2026-07-18T19:15:00-07:00",
+  "schedule_basis": "Provisional until channel-level audience analytics are available.",
   "posts": [
     {
-      "platform": "youtube",
-      "when": "2026-07-19T12:00:00Z",
-      "file": "platforms/youtube/final_long.mp4",
-      "status": "approved"
-    },
-    {
+      "content_id": "ferrum-doctrine-001",
       "platform": "x",
-      "when": "2026-07-19T13:00:00Z",
+      "when": "2026-07-19T17:00:00-07:00",
       "file": "platforms/x/thread.txt",
-      "status": "approved"
+      "status": "ready_text_not_published"
     },
     {
+      "content_id": "ferrum-doctrine-001",
+      "platform": "youtube",
+      "when": "2026-07-19T18:00:00-07:00",
+      "file": "platforms/youtube/FD-001_release/01_long.mp4",
+      "status": "ready_local_not_published"
+    },
+    {
+      "content_id": "ferrum-doctrine-001",
       "platform": "instagram",
-      "when": "2026-07-19T17:00:00Z",
+      "when": "2026-07-19T19:30:00-07:00",
       "file": "platforms/instagram/final_reel.mp4",
-      "status": "approved"
+      "status": "ready_local_not_published"
     },
     {
+      "content_id": "ferrum-doctrine-001",
       "platform": "tiktok",
-      "when": "2026-07-19T18:30:00Z",
+      "when": "2026-07-19T20:30:00-07:00",
       "file": "platforms/tiktok/final_tiktok.mp4",
-      "status": "approved"
+      "status": "ready_local_not_published"
     },
     {
+      "content_id": "ferrum-doctrine-001",
       "platform": "reddit",
-      "when": "2026-07-20T15:00:00Z",
+      "when": "2026-07-20T11:00:00-07:00",
       "file": "platforms/reddit/post.md",
-      "status": "approved"
+      "status": "review_rules_before_posting"
     },
     {
+      "content_id": "ferrum-doctrine-002",
       "platform": "youtube",
-      "when": "2026-07-20T12:00:00Z",
-      "file": "platforms/buffer/ferrum-doctrine-002/youtube/final_long.mp4",
-      "status": "ready"
+      "when": "2026-07-20T18:00:00-07:00",
+      "file": "platforms/upcoming/FD-002_soft-habits/youtube/final_long.mp4",
+      "status": "qa_hold"
     },
     {
+      "content_id": "ferrum-doctrine-003",
       "platform": "youtube",
-      "when": "2026-07-21T12:00:00Z",
-      "file": "platforms/buffer/ferrum-doctrine-003/youtube/final_long.mp4",
-      "status": "ready"
+      "when": "2026-07-21T18:00:00-07:00",
+      "file": "platforms/upcoming/FD-003_spy-room-read/youtube/final_long.mp4",
+      "status": "qa_hold"
     },
     {
+      "content_id": "ferrum-doctrine-004",
       "platform": "youtube",
-      "when": "2026-07-22T12:00:00Z",
-      "file": "platforms/buffer/ferrum-doctrine-004/youtube/final_long.mp4",
-      "status": "ready"
+      "when": "2026-07-22T18:00:00-07:00",
+      "file": "platforms/upcoming/FD-004_mental-fortress/youtube/final_long.mp4",
+      "status": "qa_hold"
     }
   ]
 }

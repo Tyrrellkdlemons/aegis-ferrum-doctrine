@@ -9,3 +9,6 @@ __pycache__/
 .DS_Store
 _tts_test.mp3
 _tts_probe.py
+.aegis.lock
+.phoenix_render/
+prometheus/qa_frames/*_debug.png

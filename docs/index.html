@@ -1,85 +1,124 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>AEGIS Command — Ferrum Doctrine</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AEGIS publishing control board for The Tyrrell Codex and the Ferrum Doctrine series.">
+  <title>AEGIS Command · The Tyrrell Codex</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="grain" aria-hidden="true"></div>
-  <header class="top">
-    <div class="brand">
-      <span class="sigil">FD</span>
-      <div>
-        <p class="eyebrow">AEGIS PHOENIX · COMMAND DASHBOARD</p>
-        <h1>Ferrum Doctrine</h1>
-      </div>
-    </div>
-    <div class="brutality" id="brutality">
-      <p class="eyebrow">Brutality Meter</p>
-      <div class="meter"><div class="fill" id="brutalityFill"></div></div>
-      <p class="meter-score"><span id="brutalityScore">93</span>/100 · NOT WATERED DOWN</p>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="masthead">
+    <a class="identity" href="#top" aria-label="AEGIS command dashboard">
+      <span class="sigil">TC</span>
+      <span>
+        <span class="kicker">AEGIS PHOENIX · COMMAND BOARD</span>
+        <strong id="channelName">The Tyrrell Codex</strong>
+        <small>Ferrum Doctrine series</small>
+      </span>
+    </a>
+    <div class="live-state">
+      <span class="signal" aria-hidden="true"></span>
+      <span>CYCLE 001 MEDIA READY</span>
+      <small id="lastUpdated">loading verified state…</small>
     </div>
   </header>
 
-  <main>
-    <section class="panel">
-      <h2>Content Pipeline</h2>
-      <p class="sub">Cycle ferrum-doctrine-001 — status live from manifests.</p>
-      <div class="table-wrap">
-        <table id="contentTable">
-          <thead>
-            <tr>
-              <th>ID</th>
-              <th>Piece</th>
-              <th>Platform</th>
-              <th>Schedule (UTC)</th>
-              <th>Status</th>
-            </tr>
-          </thead>
-          <tbody></tbody>
-        </table>
+  <main id="top">
+    <section class="hero">
+      <div>
+        <p class="kicker">ONE TOPIC · FIVE PLATFORMS · ZERO FAKE METRICS</p>
+        <h1>Pressure reveals<br><em>the system.</em></h1>
+        <p class="lede">Content and publishing instructions are separated. Every green status maps to an inspected file; every hold names the missing gate.</p>
       </div>
+      <aside class="meter-card" aria-labelledby="meterTitle">
+        <div class="meter-head">
+          <div>
+            <p class="kicker" id="meterTitle">BRUTALITY METER</p>
+            <strong><span id="brutalityScore">—</span><small>/100</small></strong>
+          </div>
+          <span class="meter-label" id="brutalityLabel">LOADING</span>
+        </div>
+        <div class="meter-track" role="meter" aria-valuemin="0" aria-valuemax="100" aria-label="Editorial intensity">
+          <span id="brutalityFill"></span>
+        </div>
+        <p id="brutalityMethod">Editorial intensity—not a performance metric.</p>
+      </aside>
+    </section>
+
+    <section class="summary-grid" aria-label="Pipeline summary">
+      <article><span>READY</span><strong id="readyCount">—</strong><small>release units</small></article>
+      <article><span>REVIEW / HOLD</span><strong id="reviewCount">—</strong><small>gates unresolved</small></article>
+      <article><span>PUBLISHED</span><strong id="publishedCount">—</strong><small>verified URLs</small></article>
+      <article><span>PROMETHEUS</span><strong id="visualScore">—</strong><small>visual score · gate 85</small></article>
     </section>
 
     <section class="panel">
-      <h2>Publish Calendar</h2>
-      <p class="sub">What · Where · When — read the clock, then execute.</p>
-      <div class="calendar" id="calendar"></div>
+      <div class="section-head">
+        <div>
+          <p class="kicker">CONTENT CORE</p>
+          <h2>What exists</h2>
+        </div>
+        <p>Master assets live in <code>content_core/</code>. No platform copy belongs there.</p>
+      </div>
+      <div class="content-grid" id="contentGrid" aria-live="polite"></div>
     </section>
 
-    <section class="grid-2">
-      <div class="panel">
-        <h2>Performance (placeholders)</h2>
-        <ul class="metrics" id="metrics">
-          <li><span>Views 24h</span><strong>—</strong></li>
-          <li><span>CTR</span><strong>—</strong></li>
-          <li><span>Avg retention</span><strong>—</strong></li>
-          <li><span>Subs delta</span><strong>—</strong></li>
-          <li><span>Revenue</span><strong>—</strong></li>
-        </ul>
-        <p class="footnote">Wire YouTube Analytics API later. No fabricated numbers.</p>
+    <section class="panel">
+      <div class="section-head">
+        <div>
+          <p class="kicker">PUBLISHING CALENDAR</p>
+          <h2>What · where · when</h2>
+        </div>
+        <p>Times are Pacific and provisional until audience analytics exist.</p>
       </div>
-      <div class="panel">
-        <h2>Operator Notes</h2>
-        <ul class="notes">
-          <li>Master script: <code>content_core/master_script.md</code></li>
-          <li>Platform packs: <code>platforms/*/publish_manifest.json</code></li>
-          <li>Account: tyrrellkdlemons@gmail.com</li>
-          <li>Channel: Ferrum Doctrine · UCh82kLGeSgdCd1VNEQsZ2pg</li>
-          <li>Never upload AEGIS cuts to the kids channel.</li>
+      <div class="calendar" id="calendar" aria-live="polite"></div>
+    </section>
+
+    <section class="split">
+      <section class="panel">
+        <div class="section-head compact">
+          <div>
+            <p class="kicker">PERFORMANCE</p>
+            <h2>No invented numbers</h2>
+          </div>
+        </div>
+        <dl class="metrics" id="metrics"></dl>
+        <p class="fineprint" id="performanceNote"></p>
+      </section>
+      <section class="panel">
+        <div class="section-head compact">
+          <div>
+            <p class="kicker">RELEASE GATES</p>
+            <h2>Operator truth</h2>
+          </div>
+        </div>
+        <ul class="operator-list">
+          <li><span>Channel</span><strong>The Tyrrell Codex</strong></li>
+          <li><span>Series</span><strong>Ferrum Doctrine</strong></li>
+          <li><span>Upload</span><strong>Not executed</strong></li>
+          <li><span>Analytics</span><strong>Awaiting publication</strong></li>
+          <li><span>Source deployment</span><strong>GitHub Pages · /docs</strong></li>
         </ul>
-      </div>
+      </section>
+    </section>
+
+    <section class="truth-strip">
+      <span>PROMETHEUS SEAL</span>
+      <strong id="sealDecision">—</strong>
+      <p id="sealDetail">Loading evidence-based QA record…</p>
     </section>
   </main>
 
   <footer>
-    <p>AEGIS · content separated from platforms · push to <code>gh-pages</code> / <code>docs</code> deploys this board.</p>
+    <p>AEGIS command board · channel identity is private-operator controlled · no uploads are implied by a local “ready” state.</p>
   </footer>
+
+  <noscript>This dashboard needs JavaScript to load the verified schedule data.</noscript>
   <script src="app.js"></script>
 </body>
 </html>

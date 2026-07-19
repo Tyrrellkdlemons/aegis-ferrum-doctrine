@@ -1,0 +1,44 @@
+{
+  "brand": "The Tyrrell Codex",
+  "codename": "Stoic Operative",
+  "version": "2.1",
+  "visual": {
+    "palette": {
+      "bg_deep": "#0B0D10",
+      "bg_slate": "#141820",
+      "accent_blood": "#C1121F",
+      "accent_steel": "#A8B2C1",
+      "text_primary": "#F2F4F7",
+      "text_muted": "#8B949E",
+      "warning": "#E8C547"
+    },
+    "motifs": [
+      "stoic statue silhouette",
+      "operative shadow",
+      "high-contrast cinematic grain",
+      "subtle technical grid overlays",
+      "controlled capability and constructive options"
+    ],
+    "typography": {
+      "display": "Impact / Bebas-style condensed",
+      "body": "clean sans-serif",
+      "thumbnail_rule": "max 4 words, high contrast, red keyword"
+    },
+    "forbidden": [
+      "soft pastel palettes",
+      "demeaning or humiliating imagery",
+      "cluttered card grids in hero",
+      "default purple AI aesthetic"
+    ]
+  },
+  "audio": {
+    "voice": "deep male, measured, calm, clear, never shouting",
+    "music": "lo-fi dark ambient, low tension, no copyright claims",
+    "forbidden": ["shaky tone", "upbeat corporate stock", "meme audio"]
+  },
+  "prometheus": {
+    "publish_threshold": 85,
+    "thumbnail_threshold": 90,
+    "veto_authority": "Aestheticus"
+  }
+}
