@@ -72,3 +72,11 @@
 - Live URL: `https://tyrrellkdlemons.github.io/aegis-ferrum-doctrine/`.
 - Live DOM verified: channel The Tyrrell Codex; 4 ready; 4 review/hold; 0 published; Prometheus 87; 4 content cards; 8 calendar entries; no data-load error.
 - YouTube and social publishing remain unexecuted.
+
+## 2026-07-18T19:16:00-07:00 — Concurrent inventory reconciliation
+
+- Detected 10 Stickman Forge lesson renders added after the first Pages build.
+- Added each lesson to the dashboard as an individual `review` item.
+- Kept the lessons out of the publishing calendar until Authoritas and Prometheus review.
+- Updated summary state to 4 ready, 14 review/hold, and 0 published.
+- Release validator confirmed all 10 local review files exist and the dashboard enumerates every lesson.

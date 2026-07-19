@@ -229,15 +229,46 @@ def main() -> int:
 
     schedule = load_json(ROOT / "dashboard/data/schedule.json")
     posts = schedule.get("posts", [])
+    unscheduled_review = sum(
+        item.get("status") == "review" for item in schedule.get("content", [])
+    )
     computed = {
         "ready": sum(post.get("status") in READY_STATUSES for post in posts),
-        "review": sum(post.get("status") in REVIEW_STATUSES for post in posts),
+        "review": (
+            sum(post.get("status") in REVIEW_STATUSES for post in posts)
+            + unscheduled_review
+        ),
         "published": sum(post.get("status") == "published" for post in posts),
     }
     if schedule.get("summary") != computed:
         errors.append(
             f"dashboard summary mismatch: declared {schedule.get('summary')}, "
             f"computed {computed}"
+        )
+
+    stickman_index_path = ROOT / "content_core/stickman_lessons/CYCLE_001_INDEX.json"
+    if stickman_index_path.is_file():
+        stickman_index = load_json(stickman_index_path)
+        lessons = stickman_index.get("lessons", [])
+        if len(lessons) != stickman_index.get("count"):
+            errors.append("Stickman index count does not match lesson records")
+        dashboard_stickman_ids = {
+            item.get("id")
+            for item in schedule.get("content", [])
+            if str(item.get("id", "")).startswith("STICKMAN-")
+        }
+        expected_stickman_ids = {
+            f"STICKMAN-{number:02d}" for number in range(1, len(lessons) + 1)
+        }
+        if dashboard_stickman_ids != expected_stickman_ids:
+            errors.append("dashboard does not enumerate every Stickman lesson")
+        for lesson in lessons:
+            media = ROOT / lesson["file"]
+            if not media.is_file() or media.stat().st_size == 0:
+                errors.append(f"missing Stickman review media: {lesson['file']}")
+        notes.append(
+            f"Stickman review inventory: {len(lessons)} local renders, "
+            "all held in review"
         )
 
     performance = schedule.get("performance", {})
