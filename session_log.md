@@ -43,3 +43,11 @@
 2. Manual upload Cycle 001 to Ferrum Doctrine
 3. Add API keys for ElevenLabs + higher-fidelity visuals
 4. Strategos weekly deep-dive for 2-week buffer
+
+## 2026-07-18 — PHOENIX MODE
+- Brutal master script: content_core/master_script.md (score 93)
+- Reorg: content_core/ · platforms/{youtube,instagram,tiktok,x,reddit}/ · dashboard/ · docs/
+- Repo: https://github.com/Tyrrellkdlemons/aegis-ferrum-doctrine
+- Pages: https://tyrrellkdlemons.github.io/aegis-ferrum-doctrine/
+- Media mp4s gitignored (local under platforms/ + assets/final/)
+- Next publish clock: platforms/SCHEDULE.json

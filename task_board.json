@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T18:35:00-07:00",
+  "updated_at": "2026-07-18T18:40:00-07:00",
   "cycle_id": "ferrum-doctrine-001",
   "mode": "PHOENIX",
   "tasks": [
@@ -8,7 +8,7 @@
       "type": "brutality_rewrite",
       "status": "complete",
       "assigned": "SOVEREIGN",
-      "details": "Rewrote content_core/master_script.md — brutality 93/100; removed therapist hedging from v2"
+      "details": "Rewrote content_core/master_script.md \u2014 brutality 93/100; removed therapist hedging from v2"
     },
     {
       "id": "reorg_001",
@@ -20,16 +20,16 @@
     {
       "id": "dashboard_001",
       "type": "dashboard_deploy",
-      "status": "in_progress",
+      "status": "complete",
       "assigned": "SOVEREIGN",
-      "details": "GitHub Pages via /docs"
+      "details": "https://tyrrellkdlemons.github.io/aegis-ferrum-doctrine/"
     },
     {
       "id": "publish_001",
       "type": "publish",
       "status": "ready",
       "assigned": null,
-      "details": "See platforms/*/WHAT_WHERE_WHEN.md and SCHEDULE.json — manual file drop still required for YT"
+      "details": "See platforms/*/WHAT_WHERE_WHEN.md and SCHEDULE.json \u2014 manual file drop still required for YT"
     },
     {
       "id": "cycle_002",

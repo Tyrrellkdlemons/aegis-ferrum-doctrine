@@ -63,3 +63,9 @@
 - Long: `assets\final\why_most_men_never_build_real_capability_v2_long.mp4` (86854244 bytes)
 - Short: `assets\final\why_most_men_never_build_real_capability_v2_short.mp4` (7270650 bytes)
 - Status: review. Prometheus must run technical, audio, visual, rights, and disclosure checks before upload.
+
+## 2026-07-18T18:40 — [PHOENIX] Session
+- Directory split complete. Dashboard deploying to GitHub Pages.
+- Publish manifests ready. Manual YT file drop still required.
+- Lock released after deploy.
+---
