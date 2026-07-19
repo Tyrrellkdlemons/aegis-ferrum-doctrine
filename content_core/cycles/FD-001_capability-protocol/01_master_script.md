@@ -7,7 +7,7 @@
 **Pillars:** Mental Fortress · Strategic Mastery · Operational Wisdom  
 **Editorial definition:** “Dangerous” means calm capability and constructive options under pressure—not aggression, intimidation, or violence.  
 **CTA keyword:** OPERATIVE  
-**Rendered master:** `assets/final/why_most_men_never_build_real_capability_v2_long.mp4`
+**Rendered master:** `platforms/youtube/FD-001_release/01_long.mp4`
 
 ## HOOK (0–3 seconds)
 

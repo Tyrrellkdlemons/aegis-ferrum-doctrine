@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-18T19:15:00-07:00",
+  "updated_at": "2026-07-18T19:07:00-07:00",
   "mode": "PHOENIX_RECONCILIATION",
   "lock": {
     "file": ".aegis.lock",
     "holder": "codex-root-phoenix-truthful-dashboard",
-    "branch": "agent/phoenix-truthful-dashboard",
-    "acquired_at": "2026-07-18T18:52:22-07:00"
+    "branch": "agent/phoenix-final-reconcile",
+    "acquired_at": "2026-07-18T19:05:30-07:00"
   },
   "channel": {
     "name": "The Tyrrell Codex",

@@ -7,6 +7,12 @@
     "handle": "@tyrrellkdlemons"
   },
   "whereabouts": "WHERE.md",
+  "source_contract": {
+    "content_core": "platform-agnostic scripts and specifications",
+    "platforms": "exact release packs and publishing manifests",
+    "dashboard": "editable static dashboard source",
+    "docs": "GitHub Pages deployment mirror"
+  },
   "current_cycle": {
     "content_id": "FD-001",
     "folder": "content_core/cycles/FD-001_capability-protocol/",
@@ -18,17 +24,20 @@
     {
       "content_id": "FD-002",
       "folder": "content_core/cycles/FD-002_soft-habits/",
-      "platforms": "platforms/upcoming/FD-002_soft-habits/"
+      "platforms": "platforms/upcoming/FD-002_soft-habits/",
+      "status": "script_complete_media_rework"
     },
     {
       "content_id": "FD-003",
       "folder": "content_core/cycles/FD-003_spy-room-read/",
-      "platforms": "platforms/upcoming/FD-003_spy-room-read/"
+      "platforms": "platforms/upcoming/FD-003_spy-room-read/",
+      "status": "outline_complete_media_rework"
     },
     {
       "content_id": "FD-004",
       "folder": "content_core/cycles/FD-004_mental-fortress/",
-      "platforms": "platforms/upcoming/FD-004_mental-fortress/"
+      "platforms": "platforms/upcoming/FD-004_mental-fortress/",
+      "status": "outline_complete_media_rework"
     }
   ]
 }

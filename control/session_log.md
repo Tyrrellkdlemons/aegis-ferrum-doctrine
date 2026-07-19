@@ -51,3 +51,16 @@
 - Pages: https://tyrrellkdlemons.github.io/aegis-ferrum-doctrine/
 - Media mp4s gitignored (local under platforms/ + assets/final/)
 - Next publish clock: platforms/SCHEDULE.json
+
+## 2026-07-18T19:07:00-07:00 — Phoenix truth and dashboard reconciliation
+
+- Audited the concurrent Phoenix exports and rejected the broken 9:16 center-crops.
+- Promoted the evidence-checked V2 release to canonical `FD-001_release` packs.
+- Verified the long-form SHA-256: `C5AD6DC35EEFA301C1AED0AD2F383B96B730B69F8B4C67F418D9CEEA61A0D07A`.
+- Confirmed media durations: long 398.96s; YouTube Short 23.25s; Instagram Reel 19.80s; TikTok 21.29s.
+- Reconciled The Tyrrell Codex as channel identity and Ferrum Doctrine as series identity.
+- Expanded FD-002 into a full master script; BODY count 918 words.
+- Rebuilt dashboard data so local-ready, QA-hold, and published states are distinct.
+- Responsive browser QA passed at desktop and 390×844 mobile width.
+- `pipelines/validate_release.py` passed manifests, required files, JSON, media streams, source/deploy parity, and empty analytics placeholders.
+- No content upload or social post was executed.

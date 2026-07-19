@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-18T19:05:00-07:00",
+  "updated_at": "2026-07-18T19:07:00-07:00",
   "cycle_id": "ferrum-doctrine-001",
   "mode": "PHOENIX_RECONCILIATION",
   "tasks": [
@@ -16,7 +16,7 @@
       "type": "master_script",
       "status": "complete",
       "assigned": null,
-      "details": "content_core/master_script.md matches the rendered V2 narrative and platform adaptations."
+      "details": "content_core/cycles/FD-001_capability-protocol/01_master_script.md matches the rendered V2 narrative and platform adaptations."
     },
     {
       "id": "visual_qa_001",
@@ -30,28 +30,28 @@
       "type": "publish_youtube",
       "status": "ready_local_not_published",
       "assigned": null,
-      "details": "platforms/youtube/final_long.mp4 plus thumbnail_final.png; no external upload executed."
+      "details": "platforms/youtube/FD-001_release/01_long.mp4 plus 03_thumbnail.png; no external upload executed."
     },
     {
       "id": "publish_instagram_001",
       "type": "publish_instagram",
       "status": "ready_local_not_published",
       "assigned": null,
-      "details": "platforms/instagram/final_reel.mp4; dedicated 9:16 edit."
+      "details": "platforms/instagram/FD-001_release/01_reel.mp4; dedicated 9:16 edit."
     },
     {
       "id": "publish_tiktok_001",
       "type": "publish_tiktok",
       "status": "ready_local_not_published",
       "assigned": null,
-      "details": "platforms/tiktok/final_tiktok.mp4; dedicated 9:16 edit."
+      "details": "platforms/tiktok/FD-001_release/01_tiktok.mp4; dedicated 9:16 edit."
     },
     {
       "id": "publish_x_001",
       "type": "publish_x",
       "status": "ready_text_not_published",
       "assigned": null,
-      "details": "platforms/x/thread.txt"
+      "details": "platforms/x/FD-001_release/01_thread.txt"
     },
     {
       "id": "publish_reddit_001",
@@ -72,7 +72,7 @@
       "type": "master_script",
       "status": "complete",
       "assigned": null,
-      "details": "content_core/future/soft_habits_kill_ambition.md \u2014 full master plus Shorts, X, and carousel adaptations."
+      "details": "content_core/cycles/FD-002_soft-habits/01_master_script.md \u2014 full master plus Shorts, X, and carousel adaptations."
     },
     {
       "id": "visual_qa_002",

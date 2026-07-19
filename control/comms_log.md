@@ -110,3 +110,28 @@ Buffer 002/003/004 rendered under platforms/buffer/ — highest local quality (C
 Publicator: drag platforms/youtube/final_long.mp4 into Studio (Ferrum Doctrine / tyrrellkdlemons@gmail.com).
 
 ---
+
+## 2026-07-18T19:05 — [Directory] Codex-aligned reorganize
+- WHERE.md created. Cycles under content_core/cycles/FD-00N_*.
+- Current upload: platforms/youtube/FD-001_release/.
+- Upcoming: platforms/upcoming/FD-002..004.
+- Legacy clutter → archive/ + assets/archive_legacy_renders/.
+---
+
+## 2026-07-18T19:07:00-07:00 — [PROMETHEUS] Evidence reconciliation
+
+- VETO retained on the old Phoenix center-cropped verticals.
+- FD-001 canonical long-form: `platforms/youtube/FD-001_release/01_long.mp4`.
+- Evidence score retained: visual 87/100; thumbnail 93/100.
+- Exact platform packs now include their media, copy, and manifests.
+- FD-002 master is complete; its existing buffer media remains `rework`.
+- FD-003 and FD-004 remain `qa_hold`.
+- External publication remains false until real platform URLs exist.
+
+## 2026-07-18T19:07:00-07:00 — [DASHBOARD] Deployment candidate
+
+- Dashboard source and `docs/` mirror use verified status data.
+- Desktop and mobile browser QA passed.
+- Performance metrics remain null by design.
+- Release validator passed.
+---

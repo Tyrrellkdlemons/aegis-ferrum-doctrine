@@ -11,7 +11,13 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-PLATFORMS = ("youtube", "instagram", "tiktok", "x", "reddit")
+RELEASE_PACKS = {
+    "youtube": Path("platforms/youtube/FD-001_release"),
+    "instagram": Path("platforms/instagram/FD-001_release"),
+    "tiktok": Path("platforms/tiktok/FD-001_release"),
+    "x": Path("platforms/x/FD-001_release"),
+    "reddit": Path("platforms/reddit/FD-001_release"),
+}
 REQUIRED_MANIFEST_KEYS = {
     "platform",
     "content_id",
@@ -102,8 +108,8 @@ def main() -> int:
             errors.append(f"missing directory: {relative}")
 
     for script in (
-        Path("content_core/master_script.md"),
-        Path("content_core/future/soft_habits_kill_ambition.md"),
+        Path("content_core/cycles/FD-001_capability-protocol/01_master_script.md"),
+        Path("content_core/cycles/FD-002_soft-habits/01_master_script.md"),
     ):
         count = body_word_count(ROOT / script)
         if not 800 <= count <= 1200:
@@ -111,8 +117,8 @@ def main() -> int:
         else:
             notes.append(f"{script}: BODY {count} words")
 
-    for platform in PLATFORMS:
-        manifest_path = ROOT / "platforms" / platform / "publish_manifest.json"
+    for platform, release_pack in RELEASE_PACKS.items():
+        manifest_path = ROOT / release_pack / "publish_manifest.json"
         if not manifest_path.is_file():
             errors.append(f"missing manifest: {manifest_path.relative_to(ROOT)}")
             continue
@@ -159,6 +165,39 @@ def main() -> int:
                     f"missing or empty thumbnail: {thumbnail_path.relative_to(ROOT)}"
                 )
 
+        for secondary_name in manifest.get("secondary_files", []):
+            secondary = manifest_path.parent / str(secondary_name)
+            if not secondary.is_file() or secondary.stat().st_size == 0:
+                errors.append(
+                    f"missing or empty secondary file: {secondary.relative_to(ROOT)}"
+                )
+                continue
+            if secondary.suffix.lower() == ".mp4":
+                try:
+                    probe = probe_media(secondary)
+                    kinds = {
+                        stream.get("codec_type")
+                        for stream in probe.get("streams", [])
+                    }
+                    if not {"video", "audio"} <= kinds:
+                        errors.append(
+                            f"{secondary.relative_to(ROOT)} lacks audio or video"
+                        )
+                    notes.append(
+                        f"{secondary.relative_to(ROOT)}: "
+                        f"{float(probe['format']['duration']):.2f}s, "
+                        f"{secondary.stat().st_size:,} bytes"
+                    )
+                except (
+                    KeyError,
+                    ValueError,
+                    subprocess.CalledProcessError,
+                ) as exc:
+                    errors.append(
+                        f"media inspection failed for "
+                        f"{secondary.relative_to(ROOT)}: {exc}"
+                    )
+
         if manifest.get("status") == "published" and not manifest.get("publish_url"):
             errors.append(
                 f"{manifest_path.relative_to(ROOT)} claims published without URL"
@@ -167,7 +206,9 @@ def main() -> int:
     expected_long_hash = load_json(ROOT / "publish_clearance.json")["evidence"][
         "long_form_sha256"
     ]
-    actual_long_hash = sha256(ROOT / "platforms/youtube/final_long.mp4")
+    actual_long_hash = sha256(
+        ROOT / "platforms/youtube/FD-001_release/01_long.mp4"
+    )
     if expected_long_hash != actual_long_hash:
         errors.append("YouTube long-form SHA-256 does not match publish_clearance.json")
     else:

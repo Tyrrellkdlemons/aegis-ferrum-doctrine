@@ -1,7 +1,7 @@
 {
   "platform": "x",
   "content_id": "ferrum-doctrine-001",
-  "file": "thread.txt",
+  "file": "01_thread.txt",
   "title": "Capability under pressure — 8-post field report",
   "description": "An eight-post breakdown of calm capability, automatic comfort, real Stoicism, and the seven-drill protocol.",
   "tags": [
@@ -23,5 +23,6 @@
     "visual_02.png",
     "visual_03.png"
   ],
-  "schedule_basis": "Provisional pre-video discussion slot; replace with account analytics when available."
+  "schedule_basis": "Provisional pre-video discussion slot; replace with account analytics when available.",
+  "pack_path": "platforms/x/FD-001_release/"
 }

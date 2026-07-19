@@ -1,6 +1,6 @@
 # Prometheus Phoenix Reconciliation
 
-Timestamp: 2026-07-18T19:15:00-07:00  
+Timestamp: 2026-07-18T19:07:00-07:00
 Channel: The Tyrrell Codex  
 Series: Ferrum Doctrine  
 Content: `ferrum-doctrine-001`
@@ -13,9 +13,9 @@ The previous Phoenix state was not trustworthy. It labeled media approved while 
 
 ## Corrective action
 
-- Replaced `platforms/youtube/final_long.mp4` with the inspected V2 long-form.
+- Promoted the inspected V2 long-form to `platforms/youtube/FD-001_release/01_long.mp4`.
 - Replaced YouTube Short, Instagram Reel, and TikTok files with three separately composed 9:16 V2 edits.
-- Replaced the YouTube and content-core thumbnails with the inspected V2 thumbnail.
+- Promoted the inspected thumbnail to `platforms/youtube/FD-001_release/03_thumbnail.png`.
 - Reconciled the canonical script with the narration used by the approved render.
 - Removed unsupported “approved,” “authorized,” and “ready” claims from unreviewed buffer cycles.
 - Preserved the evidence-based score: visual **87/100**, thumbnail **93/100**.
