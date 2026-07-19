@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="AEGIS publishing control board for The Tyrrell Codex and the Ferrum Doctrine series.">
+  <meta name="description" content="AEGIS operator command center for The Tyrrell Codex — content, progress, publish helpers, and pipeline commands.">
   <title>AEGIS Command · The Tyrrell Codex</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;500;600&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -16,109 +16,212 @@
     <a class="identity" href="#top" aria-label="AEGIS command dashboard">
       <span class="sigil">TC</span>
       <span>
-        <span class="kicker">AEGIS PHOENIX · COMMAND BOARD</span>
+        <span class="kicker">AEGIS · OPERATOR COMMAND CENTER</span>
         <strong id="channelName">The Tyrrell Codex</strong>
-        <small>Ferrum Doctrine series</small>
+        <small id="seriesName">Ferrum Doctrine series</small>
       </span>
     </a>
     <div class="live-state">
       <span class="signal" aria-hidden="true"></span>
-      <span>CYCLE 001 MEDIA READY</span>
+      <span id="liveLabel">COMMAND BOARD LIVE</span>
       <small id="lastUpdated">loading verified state…</small>
     </div>
   </header>
 
+  <nav class="cmd-nav" aria-label="Command center sections">
+    <button type="button" class="cmd-nav__btn is-active" data-panel="overview">Overview</button>
+    <button type="button" class="cmd-nav__btn" data-panel="progress">Progress</button>
+    <button type="button" class="cmd-nav__btn" data-panel="content">Content</button>
+    <button type="button" class="cmd-nav__btn" data-panel="calendar">Calendar</button>
+    <button type="button" class="cmd-nav__btn" data-panel="commands">Commands</button>
+    <button type="button" class="cmd-nav__btn" data-panel="upload">Upload Helper</button>
+    <button type="button" class="cmd-nav__btn" data-panel="links">Live Links</button>
+  </nav>
+
   <main id="top">
-    <section class="hero">
-      <div>
-        <p class="kicker">ONE TOPIC · FIVE PLATFORMS · ZERO FAKE METRICS</p>
-        <h1>Pressure reveals<br><em>the system.</em></h1>
-        <p class="lede">Content and publishing instructions are separated. Every green status maps to an inspected file; every hold names the missing gate.</p>
-      </div>
-      <aside class="meter-card" aria-labelledby="meterTitle">
-        <div class="meter-head">
-          <div>
-            <p class="kicker" id="meterTitle">BRUTALITY METER</p>
-            <strong><span id="brutalityScore">—</span><small>/100</small></strong>
+    <section class="panel-view is-active" data-view="overview" aria-label="Overview">
+      <section class="hero">
+        <div>
+          <p class="kicker">YOUR UNIQUE OPERATOR BOARD</p>
+          <h1>Command<br><em>center.</em></h1>
+          <p class="lede">Track content, gates, and publish readiness. Copy pipeline commands. Open Studio with the exact FD-001 pack checklist. No invented metrics.</p>
+          <div class="link-row" id="overviewLinks"></div>
+        </div>
+        <aside class="meter-card" aria-labelledby="meterTitle">
+          <div class="meter-head">
+            <div>
+              <p class="kicker" id="meterTitle">BRUTALITY METER</p>
+              <strong><span id="brutalityScore">—</span><small>/100</small></strong>
+            </div>
+            <span class="meter-label" id="brutalityLabel">LOADING</span>
           </div>
-          <span class="meter-label" id="brutalityLabel">LOADING</span>
-        </div>
-        <div class="meter-track" role="meter" aria-valuemin="0" aria-valuemax="100" aria-label="Editorial intensity">
-          <span id="brutalityFill"></span>
-        </div>
-        <p id="brutalityMethod">Editorial intensity—not a performance metric.</p>
-      </aside>
+          <div class="meter-track" role="meter" aria-valuemin="0" aria-valuemax="100" aria-label="Editorial intensity">
+            <span id="brutalityFill"></span>
+          </div>
+          <p id="brutalityMethod">Editorial intensity—not a performance metric.</p>
+        </aside>
+      </section>
+
+      <section class="summary-grid" aria-label="Pipeline summary">
+        <article><span>READY</span><strong id="readyCount">—</strong><small>release units</small></article>
+        <article><span>REVIEW / HOLD</span><strong id="reviewCount">—</strong><small>gates unresolved</small></article>
+        <article><span>PUBLISHED</span><strong id="publishedCount">—</strong><small>verified URLs</small></article>
+        <article><span>PROMETHEUS</span><strong id="visualScore">—</strong><small>visual score · gate 85</small></article>
+      </section>
+
+      <section class="truth-strip">
+        <span>PROMETHEUS SEAL</span>
+        <strong id="sealDecision">—</strong>
+        <p id="sealDetail">Loading evidence-based QA record…</p>
+      </section>
     </section>
 
-    <section class="summary-grid" aria-label="Pipeline summary">
-      <article><span>READY</span><strong id="readyCount">—</strong><small>release units</small></article>
-      <article><span>REVIEW / HOLD</span><strong id="reviewCount">—</strong><small>gates unresolved</small></article>
-      <article><span>PUBLISHED</span><strong id="publishedCount">—</strong><small>verified URLs</small></article>
-      <article><span>PROMETHEUS</span><strong id="visualScore">—</strong><small>visual score · gate 85</small></article>
-    </section>
-
-    <section class="panel">
-      <div class="section-head">
-        <div>
-          <p class="kicker">CONTENT CORE</p>
-          <h2>What exists</h2>
-        </div>
-        <p>Master assets live in <code>content_core/</code>. No platform copy belongs there.</p>
-      </div>
-      <div class="content-grid" id="contentGrid" aria-live="polite"></div>
-    </section>
-
-    <section class="panel">
-      <div class="section-head">
-        <div>
-          <p class="kicker">PUBLISHING CALENDAR</p>
-          <h2>What · where · when</h2>
-        </div>
-        <p>Times are Pacific and provisional until audience analytics exist.</p>
-      </div>
-      <div class="calendar" id="calendar" aria-live="polite"></div>
-    </section>
-
-    <section class="split">
+    <section class="panel-view" data-view="progress" aria-label="Progress tracker" hidden>
       <section class="panel">
-        <div class="section-head compact">
+        <div class="section-head">
           <div>
-            <p class="kicker">PERFORMANCE</p>
-            <h2>No invented numbers</h2>
+            <p class="kicker">TASK BOARD</p>
+            <h2>Progress tracker</h2>
           </div>
+          <p id="progressSummary">Loading task board…</p>
         </div>
-        <dl class="metrics" id="metrics"></dl>
-        <p class="fineprint" id="performanceNote"></p>
+        <div class="progress-bars" id="progressBars"></div>
+        <div class="task-grid" id="taskGrid"></div>
       </section>
       <section class="panel">
         <div class="section-head compact">
           <div>
-            <p class="kicker">RELEASE GATES</p>
-            <h2>Operator truth</h2>
+            <p class="kicker">ACTIVE ROLES</p>
+            <h2>Who owns what</h2>
           </div>
         </div>
-        <ul class="operator-list">
-          <li><span>Channel</span><strong>The Tyrrell Codex</strong></li>
-          <li><span>Series</span><strong>Ferrum Doctrine</strong></li>
-          <li><span>Upload</span><strong>Not executed</strong></li>
-          <li><span>Analytics</span><strong>Awaiting publication</strong></li>
-          <li><span>Source deployment</span><strong>GitHub Pages · /docs</strong></li>
-        </ul>
+        <div class="role-grid" id="roleGrid"></div>
       </section>
     </section>
 
-    <section class="truth-strip">
-      <span>PROMETHEUS SEAL</span>
-      <strong id="sealDecision">—</strong>
-      <p id="sealDetail">Loading evidence-based QA record…</p>
+    <section class="panel-view" data-view="content" aria-label="Content inventory" hidden>
+      <section class="panel">
+        <div class="section-head">
+          <div>
+            <p class="kicker">CONTENT CORE</p>
+            <h2>What exists</h2>
+          </div>
+          <p>Master assets in <code>content_core/</code>. Platform packs stay under <code>platforms/</code>.</p>
+        </div>
+        <div class="content-grid" id="contentGrid" aria-live="polite"></div>
+      </section>
+      <section class="panel">
+        <div class="section-head compact">
+          <div>
+            <p class="kicker">STICKMAN FORGE</p>
+            <h2>Short-form combat lessons</h2>
+          </div>
+        </div>
+        <div class="content-grid" id="stickmanGrid"></div>
+      </section>
+    </section>
+
+    <section class="panel-view" data-view="calendar" aria-label="Publishing calendar" hidden>
+      <section class="panel">
+        <div class="section-head">
+          <div>
+            <p class="kicker">PUBLISHING CALENDAR</p>
+            <h2>What · where · when</h2>
+          </div>
+          <p>Times are Pacific and provisional until audience analytics exist.</p>
+        </div>
+        <div class="calendar" id="calendar" aria-live="polite"></div>
+      </section>
+      <section class="split">
+        <section class="panel">
+          <div class="section-head compact">
+            <div>
+              <p class="kicker">PERFORMANCE</p>
+              <h2>No invented numbers</h2>
+            </div>
+          </div>
+          <dl class="metrics" id="metrics"></dl>
+          <p class="fineprint" id="performanceNote"></p>
+        </section>
+        <section class="panel">
+          <div class="section-head compact">
+            <div>
+              <p class="kicker">RELEASE GATES</p>
+              <h2>Operator truth</h2>
+            </div>
+          </div>
+          <ul class="operator-list" id="gateList"></ul>
+        </section>
+      </section>
+    </section>
+
+    <section class="panel-view" data-view="commands" aria-label="Pipeline commands" hidden>
+      <section class="panel">
+        <div class="section-head">
+          <div>
+            <p class="kicker">PIPELINE COMMANDS</p>
+            <h2>Copy · run · verify</h2>
+          </div>
+          <p>Shell snippets for local production. Click a card to copy.</p>
+        </div>
+        <div class="command-grid" id="commandGrid"></div>
+      </section>
+    </section>
+
+    <section class="panel-view" data-view="upload" aria-label="Upload helper" hidden>
+      <section class="panel">
+        <div class="section-head">
+          <div>
+            <p class="kicker">FD-001 UPLOAD HELPER</p>
+            <h2>Exact publish checklist</h2>
+          </div>
+          <p>Use this when Studio is open. Do not invent affiliate links.</p>
+        </div>
+        <div class="upload-layout">
+          <div>
+            <h3 class="subhead">Files</h3>
+            <ul class="file-list" id="uploadFiles"></ul>
+            <h3 class="subhead">Required checks</h3>
+            <ul class="check-list" id="uploadChecks"></ul>
+            <p class="fineprint" id="uploadMeta"></p>
+          </div>
+          <div class="copy-stack">
+            <label class="field-label" for="uploadTitle">Title</label>
+            <textarea id="uploadTitle" readonly rows="2"></textarea>
+            <button type="button" class="copy-btn" data-copy-target="uploadTitle">Copy title</button>
+            <label class="field-label" for="uploadDescription">Description</label>
+            <textarea id="uploadDescription" readonly rows="12"></textarea>
+            <button type="button" class="copy-btn" data-copy-target="uploadDescription">Copy description</button>
+            <label class="field-label" for="uploadTags">Tags</label>
+            <textarea id="uploadTags" readonly rows="3"></textarea>
+            <button type="button" class="copy-btn" data-copy-target="uploadTags">Copy tags</button>
+            <a class="primary-link" id="studioLink" href="#" target="_blank" rel="noopener">Open YouTube Studio upload</a>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="panel-view" data-view="links" aria-label="Live deployment links" hidden>
+      <section class="panel">
+        <div class="section-head">
+          <div>
+            <p class="kicker">DEPLOYMENT</p>
+            <h2>Your unique live links</h2>
+          </div>
+          <p>Same board published to GitHub Pages and Netlify.</p>
+        </div>
+        <div class="link-cards" id="linkCards"></div>
+      </section>
     </section>
   </main>
 
+  <div class="toast" id="toast" hidden>Copied</div>
+
   <footer>
-    <p>AEGIS command board · channel identity is private-operator controlled · no uploads are implied by a local “ready” state.</p>
+    <p>AEGIS command board · The Tyrrell Codex / Ferrum Doctrine · ready ≠ published · URLs only after real platform confirmation.</p>
   </footer>
 
-  <noscript>This dashboard needs JavaScript to load the verified schedule data.</noscript>
+  <noscript>This dashboard needs JavaScript to load the verified command-center data.</noscript>
   <script src="app.js"></script>
 </body>
 </html>

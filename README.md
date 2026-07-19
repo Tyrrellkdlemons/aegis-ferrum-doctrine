@@ -20,7 +20,17 @@
 
 Publication state: **locally ready, not uploaded**. Compatibility shims (`platforms/youtube/final_long.mp4`) still point at the same file.
 
-Live command dashboard: <https://tyrrellkdlemons.github.io/aegis-ferrum-doctrine/>
+## Live command center (unique links)
+
+| Host | URL |
+|------|-----|
+| **Netlify (primary helper)** | <https://tyrrell-codex-aegis-command.netlify.app/> |
+| **GitHub Pages** | <https://tyrrellkdlemons.github.io/aegis-ferrum-doctrine/> |
+| Netlify admin | <https://app.netlify.com/projects/tyrrell-codex-aegis-command> |
+
+Tabs: Overview · Progress · Content · Calendar · Commands · Upload Helper · Live Links
+
+Refresh board data locally: `python pipelines/sync_dashboard.py` then deploy (`git push` for Pages, `npx netlify-cli deploy --prod --dir=docs` for Netlify).
 
 ## Directory contract
 

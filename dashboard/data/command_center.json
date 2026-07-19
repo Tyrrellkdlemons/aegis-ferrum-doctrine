@@ -1,0 +1,634 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-18T20:05:37-07:00",
+  "identity": {
+    "channel": "The Tyrrell Codex",
+    "series": "Ferrum Doctrine",
+    "channel_id": "UCh82kLGeSgdCd1VNEQsZ2pg",
+    "handle": "@tyrrellkdlemons"
+  },
+  "links": {
+    "github_pages": "https://tyrrellkdlemons.github.io/aegis-ferrum-doctrine/",
+    "netlify": "https://tyrrell-codex-aegis-command.netlify.app/",
+    "netlify_admin": "https://app.netlify.com/projects/tyrrell-codex-aegis-command",
+    "github_repo": "https://github.com/Tyrrellkdlemons/aegis-ferrum-doctrine",
+    "youtube_studio": "https://studio.youtube.com/channel/UCh82kLGeSgdCd1VNEQsZ2pg/videos/upload?d=ud"
+  },
+  "summary": {
+    "ready": 4,
+    "review": 14,
+    "published": 0
+  },
+  "progress": {
+    "complete": 6,
+    "ready": 4,
+    "review": 5,
+    "blocked": 1,
+    "total": 15
+  },
+  "tasks": [
+    {
+      "id": "audit_001",
+      "type": "editorial_and_asset_audit",
+      "status": "complete",
+      "assigned": "codex-root-phoenix-truthful-dashboard",
+      "details": "Rejected false readiness claims and broken Phoenix vertical center-crops; promoted inspected V2 media."
+    },
+    {
+      "id": "script_001",
+      "type": "master_script",
+      "status": "complete",
+      "assigned": null,
+      "details": "content_core/cycles/FD-001_capability-protocol/01_master_script.md matches the rendered V2 narrative and platform adaptations."
+    },
+    {
+      "id": "visual_qa_001",
+      "type": "visual_qa",
+      "status": "complete",
+      "assigned": null,
+      "details": "prometheus/v2_seal.json \u2014 visual 87/85; thumbnail 93/90; center-cropped derivative rejected."
+    },
+    {
+      "id": "publish_youtube_001",
+      "type": "publish_youtube",
+      "status": "ready_local_awaiting_operator_sign_in",
+      "assigned": null,
+      "details": "Pack opened + Studio upload URL launched. Automation browser lacks Google session; operator must complete sign-in/file select. Canonical: platforms/youtube/FD-001_release/."
+    },
+    {
+      "id": "publish_instagram_001",
+      "type": "publish_instagram",
+      "status": "ready_local_not_published",
+      "assigned": null,
+      "details": "platforms/instagram/FD-001_release/01_reel.mp4; dedicated 9:16 edit."
+    },
+    {
+      "id": "publish_tiktok_001",
+      "type": "publish_tiktok",
+      "status": "ready_local_not_published",
+      "assigned": null,
+      "details": "platforms/tiktok/FD-001_release/01_tiktok.mp4; dedicated 9:16 edit."
+    },
+    {
+      "id": "publish_x_001",
+      "type": "publish_x",
+      "status": "ready_text_not_published",
+      "assigned": null,
+      "details": "platforms/x/FD-001_release/01_thread.txt"
+    },
+    {
+      "id": "publish_reddit_001",
+      "type": "publish_reddit",
+      "status": "review_rules_before_posting",
+      "assigned": null,
+      "details": "Value-first post exists; target community rules must be reviewed at posting time."
+    },
+    {
+      "id": "dashboard_deploy_001",
+      "type": "dashboard_deploy",
+      "status": "complete",
+      "assigned": null,
+      "details": "Live at https://tyrrellkdlemons.github.io/aegis-ferrum-doctrine/; dashboard inventory includes FD-001 through FD-004 plus all 10 Stickman review items."
+    },
+    {
+      "id": "script_002",
+      "type": "master_script",
+      "status": "complete",
+      "assigned": null,
+      "details": "content_core/cycles/FD-002_soft-habits/01_master_script.md \u2014 full master plus Shorts, X, and carousel adaptations."
+    },
+    {
+      "id": "visual_qa_002",
+      "type": "visual_qa",
+      "status": "rework",
+      "assigned": null,
+      "details": "FD-002 script complete (918 words). Buffer media remains unsealed. Next production cycle after FD-001 publish confirmation."
+    },
+    {
+      "id": "visual_qa_003",
+      "type": "visual_qa",
+      "status": "rework",
+      "assigned": null,
+      "details": "Outline and buffer render exist; no evidence-based seal."
+    },
+    {
+      "id": "visual_qa_004",
+      "type": "visual_qa",
+      "status": "rework",
+      "assigned": null,
+      "details": "Outline and buffer render exist; no evidence-based seal."
+    },
+    {
+      "id": "organize_dir_001",
+      "type": "directory_organize",
+      "status": "complete",
+      "assigned": "cursor-codex-align",
+      "details": "Renamed to FD-00N cycles; platforms/upcoming; WHERE.md map; shims kept for final_long.mp4"
+    },
+    {
+      "id": "stickman_forge_cycle_001",
+      "type": "stickman_forge",
+      "status": "review",
+      "assigned": "StickmanForge",
+      "details": "REIMAGINED on Manim CE: 10 lessons @ 1080x1920/30fps ~8Mbps with vector combat morphs, flash/shake, kinetic captions, SFX. V1 slideshow rejected. Held for Authoritas. Next unlock: higgsfield auth login \u2192 Seedance fight plates.",
+      "outputs": "content_core/stickman_lessons/CYCLE_001_INDEX.json",
+      "engine": "stickman_manim"
+    }
+  ],
+  "roles": {
+    "Strategos": {
+      "assignee": null,
+      "status": "idle",
+      "note": "Cycle 001 topic selected; future trend claims require fresh evidence."
+    },
+    "Scriptor": {
+      "assignee": "codex-root-phoenix-truthful-dashboard",
+      "status": "complete",
+      "note": "Cycle 001 canonical master reconciled to rendered V2; Cycle 002 expanded to full master."
+    },
+    "Vocem": {
+      "assignee": null,
+      "status": "complete",
+      "note": "Cycle 001 V2 narration passed the evidence-based media QA record."
+    },
+    "Visualis": {
+      "assignee": null,
+      "status": "complete",
+      "note": "Cycle 001 uses the V2 visual package."
+    },
+    "Aestheticus": {
+      "assignee": null,
+      "status": "complete",
+      "note": "Cycle 001 Prometheus visual score 87 and thumbnail score 93. Cycles 002-004 remain on QA hold."
+    },
+    "Editorius": {
+      "assignee": null,
+      "status": "complete",
+      "note": "Stickman Forge V2 complete for lessons 01-10; FD-001 media unchanged and validated."
+    },
+    "Publicator": {
+      "assignee": "cursor-continuation-fix-go",
+      "status": "blocked_needs_google_session",
+      "note": "Studio upload URL and FD-001 pack opened for operator. Automation Chrome has no Google session; complete upload manually from OPERATOR_UPLOAD_CARD.md."
+    },
+    "Dashboard": {
+      "assignee": null,
+      "status": "complete",
+      "note": "GitHub Pages built successfully and the live desktop data render was verified."
+    },
+    "Analytica": {
+      "assignee": null,
+      "status": "awaiting_publication",
+      "note": "Dashboard metrics remain null until platform APIs return real data."
+    },
+    "Custos": {
+      "assignee": null,
+      "status": "blocked_no_verified_offers",
+      "note": "No affiliate links, funnel, or revenue claims were invented."
+    }
+  },
+  "clearance": {
+    "schema_version": 3,
+    "content_id": "ferrum-doctrine-001",
+    "channel": "The Tyrrell Codex",
+    "series": "Ferrum Doctrine",
+    "local_release_cleared": true,
+    "external_publish_executed": false,
+    "external_publish_urls": [],
+    "timestamp": "2026-07-18T19:07:00-07:00",
+    "evidence": {
+      "qa_seal": "prometheus/v2_seal.json",
+      "qa_report": "prometheus/qa_report_v2.md",
+      "long_form": "platforms/youtube/FD-001_release/01_long.mp4",
+      "long_form_sha256": "C5AD6DC35EEFA301C1AED0AD2F383B96B730B69F8B4C67F418D9CEEA61A0D07A",
+      "thumbnail": "platforms/youtube/FD-001_release/03_thumbnail.png"
+    },
+    "rejected": [
+      "Phoenix vertical center-crops with clipped or off-canvas text",
+      "Unverified heuristic readiness claims for buffer cycles 002-004",
+      "Fabricated affiliate links, analytics, and publication URLs"
+    ],
+    "note": "Local files ready for operator upload. Canonical pack is platforms/youtube/FD-001_release/. Compatibility shims remain at platforms/youtube/final_*.mp4.",
+    "whereabouts": "WHERE.md"
+  },
+  "prometheus": {
+    "visual_score": 87,
+    "threshold": 85,
+    "thumbnail_score": 93,
+    "thumbnail_threshold": 90,
+    "seal": "prometheus/v2_seal.json",
+    "decision": "PASS"
+  },
+  "content_index": {
+    "schema_version": 3,
+    "channel": {
+      "name": "The Tyrrell Codex",
+      "series": "Ferrum Doctrine",
+      "youtube_channel_id": "UCh82kLGeSgdCd1VNEQsZ2pg",
+      "handle": "@tyrrellkdlemons"
+    },
+    "whereabouts": "WHERE.md",
+    "source_contract": {
+      "content_core": "platform-agnostic scripts and specifications",
+      "platforms": "exact release packs and publishing manifests",
+      "dashboard": "editable static dashboard source",
+      "docs": "GitHub Pages deployment mirror"
+    },
+    "current_cycle": {
+      "content_id": "FD-001",
+      "folder": "content_core/cycles/FD-001_capability-protocol/",
+      "master_script": "content_core/cycles/FD-001_capability-protocol/01_master_script.md",
+      "youtube_release": "platforms/youtube/FD-001_release/",
+      "status": "ready_local_not_published"
+    },
+    "upcoming": [
+      {
+        "content_id": "FD-002",
+        "folder": "content_core/cycles/FD-002_soft-habits/",
+        "platforms": "platforms/upcoming/FD-002_soft-habits/",
+        "status": "script_complete_media_rework"
+      },
+      {
+        "content_id": "FD-003",
+        "folder": "content_core/cycles/FD-003_spy-room-read/",
+        "platforms": "platforms/upcoming/FD-003_spy-room-read/",
+        "status": "outline_complete_media_rework"
+      },
+      {
+        "content_id": "FD-004",
+        "folder": "content_core/cycles/FD-004_mental-fortress/",
+        "platforms": "platforms/upcoming/FD-004_mental-fortress/",
+        "status": "outline_complete_media_rework"
+      }
+    ]
+  },
+  "stickman": {
+    "cycle": "stickman_forge_cycle_001",
+    "series": "Ferrum Doctrine Stickman Combat Lessons",
+    "channel": "The Tyrrell Codex",
+    "engine": "stickman_manim",
+    "count": 10,
+    "generated_at": "2026-07-19T03:01:39.720499+00:00",
+    "lessons": [
+      {
+        "id": "lesson_01",
+        "title": "Comfort Is a Cage",
+        "file": "assets/final/stickman/lesson_01.mp4",
+        "bytes": 11206458,
+        "engine": "manim"
+      },
+      {
+        "id": "lesson_02",
+        "title": "Respect Is Earned Under Pressure",
+        "file": "assets/final/stickman/lesson_02.mp4",
+        "bytes": 11071145,
+        "engine": "manim"
+      },
+      {
+        "id": "lesson_03",
+        "title": "Your Phone Owns You",
+        "file": "assets/final/stickman/lesson_03.mp4",
+        "bytes": 8567982,
+        "engine": "manim"
+      },
+      {
+        "id": "lesson_04",
+        "title": "Cheap Pleasure Steals Your Frame",
+        "file": "assets/final/stickman/lesson_04.mp4",
+        "bytes": 10177752,
+        "engine": "manim"
+      },
+      {
+        "id": "lesson_05",
+        "title": "Speak Second",
+        "file": "assets/final/stickman/lesson_05.mp4",
+        "bytes": 8792587,
+        "engine": "manim"
+      },
+      {
+        "id": "lesson_06",
+        "title": "Soft Habits Bleed Ambition",
+        "file": "assets/final/stickman/lesson_06.mp4",
+        "bytes": 8730010,
+        "engine": "manim"
+      },
+      {
+        "id": "lesson_07",
+        "title": "Pain Is Tuition",
+        "file": "assets/final/stickman/lesson_07.mp4",
+        "bytes": 12117009,
+        "engine": "manim"
+      },
+      {
+        "id": "lesson_08",
+        "title": "Nobody Is Coming",
+        "file": "assets/final/stickman/lesson_08.mp4",
+        "bytes": 8247875,
+        "engine": "manim"
+      },
+      {
+        "id": "lesson_09",
+        "title": "Options Beat Excuses",
+        "file": "assets/final/stickman/lesson_09.mp4",
+        "bytes": 10175757,
+        "engine": "manim"
+      },
+      {
+        "id": "lesson_10",
+        "title": "One Non-Negotiable",
+        "file": "assets/final/stickman/lesson_10.mp4",
+        "bytes": 8910570,
+        "engine": "manim"
+      }
+    ],
+    "status": "review",
+    "quality_bar": {
+      "benchmark": "viral stickman Shorts",
+      "tool": "Manim CE 0.20",
+      "resolution": "1080x1920",
+      "fps": 30,
+      "bitrate": "8M"
+    },
+    "note": "Manim cinematic re-render. Authoritas review. Higgsfield needs: higgsfield auth login"
+  },
+  "commands": [
+    {
+      "id": "validate",
+      "label": "Validate release",
+      "shell": "python pipelines/validate_release.py",
+      "purpose": "Confirm manifests, media streams, hashes, dashboard parity."
+    },
+    {
+      "id": "sync_dashboard",
+      "label": "Sync command center data",
+      "shell": "python pipelines/sync_dashboard.py",
+      "purpose": "Rebuild dashboard/data from task board, clearance, and seals; mirror to docs/."
+    },
+    {
+      "id": "stickman_v2",
+      "label": "Render Stickman lesson",
+      "shell": "python pipelines/stickman_forge.py lesson_01",
+      "purpose": "Rebuild one Stickman Forge V2 short (swap lesson_id)."
+    },
+    {
+      "id": "production_v2",
+      "label": "Render long-form V2",
+      "shell": "python pipelines/production_cycle_v2.py",
+      "purpose": "Full V2 long-form production cycle (voice, scenes, captions)."
+    },
+    {
+      "id": "deploy_pages",
+      "label": "Deploy GitHub Pages",
+      "shell": "git add docs dashboard && git commit -m \"Update command center\" && git push origin master",
+      "purpose": "Push docs/ mirror so GitHub Pages rebuilds."
+    },
+    {
+      "id": "deploy_netlify",
+      "label": "Deploy Netlify",
+      "shell": "npx netlify-cli deploy --prod --dir=docs",
+      "purpose": "Publish the same static board to the unique Netlify URL."
+    }
+  ],
+  "upload_helper": {
+    "channel": "The Tyrrell Codex",
+    "channel_id": "UCh82kLGeSgdCd1VNEQsZ2pg",
+    "handle": "@tyrrellkdlemons",
+    "studio_url": "https://studio.youtube.com/channel/UCh82kLGeSgdCd1VNEQsZ2pg/videos/upload?d=ud",
+    "pack": "platforms/youtube/FD-001_release/",
+    "files": [
+      "platforms/youtube/FD-001_release/01_long.mp4",
+      "platforms/youtube/FD-001_release/03_thumbnail.png",
+      "platforms/youtube/FD-001_release/02_short.mp4"
+    ],
+    "title": "Why Most Men Never Build Real Capability (21-Day Protocol)",
+    "description": "Most men do not lack motivation. They lack trained options under pressure.\n\nThis field report breaks down a 21-day protocol for building calm capability: controlled friction, deliberate silence, delayed reaction, constructive room reading, clean exits, and one promise you actually keep. The goal is not rage or dominance. It is self-command.\n\nCHAPTERS\n0:00 Capability versus rage\n0:26 Why escape becomes a reflex\n1:35 The 21-Day Edge Protocol\n4:32 The Stoic reframe\n5:18 The pressure test\n6:17 Your first promise\n\nIf you are taking the protocol, comment OPERATIVE and name the one realistic promise you will keep. Subscribe for the next field report.\n\nProduction note: This original video uses AI-generated visuals and an AI voice. Its script, editorial structure, soundtrack mix, motion treatment, and captions were created for The Tyrrell Codex.",
+    "tags": [
+      "discipline",
+      "stoicism",
+      "self discipline",
+      "self mastery",
+      "calm under pressure",
+      "emotional regulation",
+      "mental toughness",
+      "personal responsibility",
+      "deep work",
+      "focus",
+      "habit building",
+      "21 day challenge",
+      "mens self improvement",
+      "confidence",
+      "social intelligence",
+      "strategic thinking",
+      "resilience",
+      "stoic philosophy",
+      "The Tyrrell Codex",
+      "Ferrum Doctrine"
+    ],
+    "checks": [
+      "Confirm Google account + channel ID before selecting files",
+      "Audience: No, not made for kids",
+      "Altered / synthetic content: YES",
+      "No affiliate links / paid promotion claims",
+      "Mid-roll OFF (under 8 minutes)",
+      "Do not mark published until YouTube returns a real URL"
+    ],
+    "card": "platforms/youtube/FD-001_release/OPERATOR_UPLOAD_CARD.md"
+  },
+  "editorial_intensity": {
+    "score": 91,
+    "label": "UNWATERED",
+    "method": "Tongue-in-cheek editorial self-score; not a performance or safety metric."
+  },
+  "posts": [
+    {
+      "platform": "x",
+      "piece": "FD-001 \u00b7 eight-post field report",
+      "when": "2026-07-19T17:00:00-07:00",
+      "status": "ready_text_not_published",
+      "file": "platforms/x/FD-001_release/01_thread.txt"
+    },
+    {
+      "platform": "youtube",
+      "piece": "FD-001 \u00b7 long-form",
+      "when": "2026-07-19T18:00:00-07:00",
+      "status": "ready_local_not_published",
+      "file": "platforms/youtube/FD-001_release/01_long.mp4"
+    },
+    {
+      "platform": "instagram",
+      "piece": "FD-001 \u00b7 Stoicism is not numbness",
+      "when": "2026-07-19T19:30:00-07:00",
+      "status": "ready_local_not_published",
+      "file": "platforms/instagram/FD-001_release/01_reel.mp4"
+    },
+    {
+      "platform": "tiktok",
+      "piece": "FD-001 \u00b7 One promise rebuilds self-trust",
+      "when": "2026-07-19T20:30:00-07:00",
+      "status": "ready_local_not_published",
+      "file": "platforms/tiktok/FD-001_release/01_tiktok.mp4"
+    },
+    {
+      "platform": "reddit",
+      "piece": "FD-001 \u00b7 value-first protocol post",
+      "when": "2026-07-20T11:00:00-07:00",
+      "status": "review_rules_before_posting",
+      "file": "platforms/reddit/FD-001_release/01_post.md"
+    },
+    {
+      "platform": "youtube",
+      "piece": "FD-002 \u00b7 Soft Habits Kill Ambition",
+      "when": "2026-07-20T18:00:00-07:00",
+      "status": "qa_hold",
+      "file": "platforms/upcoming/FD-002_soft-habits/youtube/"
+    },
+    {
+      "platform": "youtube",
+      "piece": "FD-003 \u00b7 Spy Method Room Read",
+      "when": "2026-07-21T18:00:00-07:00",
+      "status": "qa_hold",
+      "file": "platforms/upcoming/FD-003_spy-room-read/youtube/"
+    },
+    {
+      "platform": "youtube",
+      "piece": "FD-004 \u00b7 Mental Fortress / Digital Noise",
+      "when": "2026-07-22T18:00:00-07:00",
+      "status": "qa_hold",
+      "file": "platforms/upcoming/FD-004_mental-fortress/youtube/"
+    }
+  ],
+  "content": [
+    {
+      "id": "FD-001",
+      "title": "Why Most Men Never Build Real Capability",
+      "type": "master + five platform packs",
+      "status": "ready_local_not_published",
+      "detail": "6:38.96 long-form and three dedicated vertical cuts passed evidence-based Prometheus review.",
+      "source": "content_core/cycles/FD-001_capability-protocol/01_master_script.md"
+    },
+    {
+      "id": "FD-002",
+      "title": "Soft Habits That Quietly Kill Ambition",
+      "type": "next-cycle master",
+      "status": "script_complete_media_rework",
+      "detail": "Full master and platform adaptations are complete. Existing buffer render has no evidence-based visual seal.",
+      "source": "content_core/cycles/FD-002_soft-habits/01_master_script.md"
+    },
+    {
+      "id": "FD-003",
+      "title": "The Spy Method: Read Any Room in 10 Seconds",
+      "type": "buffer outline",
+      "status": "outline_complete_media_rework",
+      "detail": "Outline exists. Render remains on QA hold.",
+      "source": "content_core/cycles/FD-003_spy-room-read/01_master_script.md"
+    },
+    {
+      "id": "FD-004",
+      "title": "Build a Mental Fortress Against Digital Noise",
+      "type": "buffer outline",
+      "status": "outline_complete_media_rework",
+      "detail": "Outline exists. Render remains on QA hold.",
+      "source": "content_core/cycles/FD-004_mental-fortress/01_master_script.md"
+    },
+    {
+      "id": "STICKMAN-01",
+      "title": "Comfort Is a Cage",
+      "type": "vertical combat lesson",
+      "status": "review",
+      "detail": "Stickman Forge V2 cinematic render complete (decode QA sampled). Awaiting Authoritas before Publicator upload.",
+      "source": "content_core/stickman_lessons/scripts/lesson_01.md",
+      "engine": "stickman_forge_v2"
+    },
+    {
+      "id": "STICKMAN-02",
+      "title": "Respect Is Earned Under Pressure",
+      "type": "vertical combat lesson",
+      "status": "review",
+      "detail": "Stickman Forge V2 cinematic render complete (decode QA sampled). Awaiting Authoritas before Publicator upload.",
+      "source": "content_core/stickman_lessons/scripts/lesson_02.md",
+      "engine": "stickman_forge_v2"
+    },
+    {
+      "id": "STICKMAN-03",
+      "title": "Your Phone Owns You",
+      "type": "vertical combat lesson",
+      "status": "review",
+      "detail": "Stickman Forge V2 cinematic render complete (decode QA sampled). Awaiting Authoritas before Publicator upload.",
+      "source": "content_core/stickman_lessons/scripts/lesson_03.md",
+      "engine": "stickman_forge_v2"
+    },
+    {
+      "id": "STICKMAN-04",
+      "title": "Cheap Pleasure Steals Your Frame",
+      "type": "vertical combat lesson",
+      "status": "review",
+      "detail": "Stickman Forge V2 cinematic render complete (decode QA sampled). Awaiting Authoritas before Publicator upload.",
+      "source": "content_core/stickman_lessons/scripts/lesson_04.md",
+      "engine": "stickman_forge_v2"
+    },
+    {
+      "id": "STICKMAN-05",
+      "title": "Speak Second",
+      "type": "vertical combat lesson",
+      "status": "review",
+      "detail": "Stickman Forge V2 cinematic render complete (decode QA sampled). Awaiting Authoritas before Publicator upload.",
+      "source": "content_core/stickman_lessons/scripts/lesson_05.md",
+      "engine": "stickman_forge_v2"
+    },
+    {
+      "id": "STICKMAN-06",
+      "title": "Soft Habits Bleed Ambition",
+      "type": "vertical combat lesson",
+      "status": "review",
+      "detail": "Stickman Forge V2 cinematic render complete (decode QA sampled). Awaiting Authoritas before Publicator upload.",
+      "source": "content_core/stickman_lessons/scripts/lesson_06.md",
+      "engine": "stickman_forge_v2"
+    },
+    {
+      "id": "STICKMAN-07",
+      "title": "Pain Is Tuition",
+      "type": "vertical combat lesson",
+      "status": "review",
+      "detail": "Stickman Forge V2 cinematic render complete (decode QA sampled). Awaiting Authoritas before Publicator upload.",
+      "source": "content_core/stickman_lessons/scripts/lesson_07.md",
+      "engine": "stickman_forge_v2"
+    },
+    {
+      "id": "STICKMAN-08",
+      "title": "Nobody Is Coming",
+      "type": "vertical combat lesson",
+      "status": "review",
+      "detail": "Stickman Forge V2 cinematic render complete (decode QA sampled). Awaiting Authoritas before Publicator upload.",
+      "source": "content_core/stickman_lessons/scripts/lesson_08.md",
+      "engine": "stickman_forge_v2"
+    },
+    {
+      "id": "STICKMAN-09",
+      "title": "Options Beat Excuses",
+      "type": "vertical combat lesson",
+      "status": "review",
+      "detail": "Stickman Forge V2 cinematic render complete (decode QA sampled). Awaiting Authoritas before Publicator upload.",
+      "source": "content_core/stickman_lessons/scripts/lesson_09.md",
+      "engine": "stickman_forge_v2"
+    },
+    {
+      "id": "STICKMAN-10",
+      "title": "One Non-Negotiable",
+      "type": "vertical combat lesson",
+      "status": "review",
+      "detail": "Stickman Forge V2 cinematic render complete (decode QA sampled). Awaiting Authoritas before Publicator upload.",
+      "source": "content_core/stickman_lessons/scripts/lesson_10.md",
+      "engine": "stickman_forge_v2"
+    }
+  ],
+  "performance": {
+    "views_24h": null,
+    "ctr_percent": null,
+    "average_retention_percent": null,
+    "subscriber_delta": null,
+    "revenue_usd": null,
+    "note": "Placeholders remain empty until platform APIs return real data."
+  },
+  "timezone": "America/Los_Angeles",
+  "updated_at": "2026-07-18T19:35:43-07:00"
+}

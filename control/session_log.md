@@ -92,3 +92,12 @@
 - No publish URL recorded — external upload still requires operator Google session confirmation.
 - FD-002 remains script_complete_media_rework (no false seal).
 
+
+## 2026-07-18T20:05:00-07:00 — Command center live on Netlify + Pages
+
+- Built full operator helper board (Overview / Progress / Content / Calendar / Commands / Upload Helper / Live Links).
+- Unique Netlify site: https://tyrrell-codex-aegis-command.netlify.app/
+- GitHub Pages mirror: https://tyrrellkdlemons.github.io/aegis-ferrum-doctrine/
+- Sync script: pipelines/sync_dashboard.py -> dashboard/data/command_center.json + docs/
+- Netlify project linked: tyrrell-codex-aegis-command (admin: https://app.netlify.com/projects/tyrrell-codex-aegis-command)
+

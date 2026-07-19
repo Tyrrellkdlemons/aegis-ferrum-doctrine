@@ -1,0 +1,18 @@
+# AEGIS Command Center — Netlify production
+# Unique URL: https://tyrrell-codex-aegis-command.netlify.app/
+
+[build]
+  publish = "docs"
+  command = "echo Using pre-synced docs/"
+
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "no-store, max-age=0"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

@@ -222,5 +222,12 @@
     "lessons": 10,
     "index": "content_core/stickman_lessons/CYCLE_001_INDEX.json",
     "quality_standard": "content_core/stickman_lessons/QUALITY_STANDARD_V2.md"
+  },
+  "deploy": {
+    "github_pages": "https://tyrrellkdlemons.github.io/aegis-ferrum-doctrine/",
+    "netlify": "https://tyrrell-codex-aegis-command.netlify.app/",
+    "netlify_admin": "https://app.netlify.com/projects/tyrrell-codex-aegis-command",
+    "github_repo": "https://github.com/Tyrrellkdlemons/aegis-ferrum-doctrine",
+    "youtube_studio": "https://studio.youtube.com/channel/UCh82kLGeSgdCd1VNEQsZ2pg/videos/upload?d=ud"
   }
 }

@@ -45,10 +45,17 @@ Canonical pack:
 | FD-003 | `content_core/cycles/FD-003_spy-room-read/` | `platforms/upcoming/FD-003_spy-room-read/` |
 | FD-004 | `content_core/cycles/FD-004_mental-fortress/` | `platforms/upcoming/FD-004_mental-fortress/` |
 
-## Dashboard
+## Dashboard / command center
 
-Edit `dashboard/`, copy to `docs/`, push the branch GitHub Pages uses (`master` /docs).
-Live: https://tyrrellkdlemons.github.io/aegis-ferrum-doctrine/
+Edit `dashboard/`, run `python pipelines/sync_dashboard.py` (mirrors to `docs/`).
+
+| Host | Unique URL |
+|------|------------|
+| Netlify | https://tyrrell-codex-aegis-command.netlify.app/ |
+| GitHub Pages | https://tyrrellkdlemons.github.io/aegis-ferrum-doctrine/ |
+| Netlify admin | https://app.netlify.com/projects/tyrrell-codex-aegis-command |
+
+Deploy: `git push origin master` (Pages) and/or `npx netlify-cli deploy --prod --dir=docs`.
 
 ## Next actions
 
