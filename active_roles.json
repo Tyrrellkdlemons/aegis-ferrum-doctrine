@@ -1,0 +1,27 @@
+{
+  "updated_at": "2026-07-18T18:35:00-07:00",
+  "mode": "PHOENIX",
+  "lock": {
+    "file": ".aegis.lock",
+    "holder": "SOVEREIGN",
+    "acquired_at": "2026-07-18T18:32:00-07:00"
+  },
+  "channel": {
+    "name": "Ferrum Doctrine",
+    "channel_id": "UCh82kLGeSgdCd1VNEQsZ2pg",
+    "handle": "@tyrrellkdlemons",
+    "email": "tyrrellkdlemons@gmail.com",
+    "rename_status": "do_not_rename_again"
+  },
+  "roles": {
+    "Strategos": {"assignee": "SOVEREIGN", "status": "complete"},
+    "Scriptor": {"assignee": "SOVEREIGN", "status": "complete", "note": "Phoenix brutal master_script written"},
+    "Visualis": {"assignee": "SOVEREIGN", "status": "complete"},
+    "Aestheticus": {"assignee": "SOVEREIGN", "status": "complete"},
+    "Editorius": {"assignee": "SOVEREIGN", "status": "complete"},
+    "Publicator": {"assignee": "SOVEREIGN", "status": "ready_manual_upload"},
+    "Dashboard": {"assignee": "SOVEREIGN", "status": "deploying"},
+    "Analytica": {"assignee": null, "status": "idle"},
+    "Custos": {"assignee": null, "status": "idle"}
+  }
+}

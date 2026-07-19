@@ -1,0 +1,52 @@
+{
+  "captured_at": "2026-07-18T18:10:00-07:00",
+  "sources": [
+    "web_trend_synthesis",
+    "stoicism_digital_renaissance_2025_2026",
+    "tiktok_stoicism_masculinity_discourse",
+    "self_improvement_uncertainty_ai_era"
+  ],
+  "signals": [
+    {
+      "topic": "stoicism + masculinity on short-form",
+      "volume": "high",
+      "emotional_charge": "high",
+      "controversy": "medium-high",
+      "pillar_fit": ["Mental Fortress", "Strategic Mastery", "Operational Wisdom"],
+      "note": "Fragmented 'dangerous man' stoicism trending; authentic discipline angle under-served vs aesthetic broicism"
+    },
+    {
+      "topic": "comfort addiction / soft living backlash",
+      "volume": "rising",
+      "emotional_charge": "high",
+      "controversy": "medium",
+      "pillar_fit": ["Physical Supremacy", "Mental Fortress"]
+    },
+    {
+      "topic": "AI-era obsolescence anxiety for men",
+      "volume": "rising",
+      "emotional_charge": "high",
+      "controversy": "medium",
+      "pillar_fit": ["Financial/Technological Sovereignty", "Strategic Mastery"]
+    }
+  ],
+  "competitor_gap": "Most channels sell statue aesthetics or empty 'be dangerous' slogans. Gap: field-manual drills that convert presence into controllable room dynamics without fake suppression.",
+  "selected_topic": {
+    "title": "Why 99% of Men Will Never Be Dangerous (And How You Become the 1%)",
+    "slug": "why_99_percent_men_never_dangerous",
+    "angle": "Danger is not aggression — it is optionality under pressure. Soft men outsource their edges. Operatives rebuild them with drills.",
+    "keywords": [
+      "become dangerous",
+      "stoic discipline",
+      "masculine presence",
+      "mental toughness",
+      "self improvement men",
+      "how to be dangerous",
+      "stoic operative",
+      "room control psychology",
+      "anti comfort protocol",
+      "dark psychology stoicism"
+    ],
+    "composite_score": 91
+  }
+}

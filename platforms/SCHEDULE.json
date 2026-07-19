@@ -1,0 +1,36 @@
+{
+  "content_id": "ferrum-doctrine-001",
+  "generated_at": "2026-07-19T01:34:23.380837+00:00",
+  "posts": [
+    {
+      "platform": "youtube",
+      "when": "2026-07-19T12:00:00Z",
+      "file": "platforms/youtube/final_long.mp4",
+      "status": "ready"
+    },
+    {
+      "platform": "x",
+      "when": "2026-07-19T13:00:00Z",
+      "file": "platforms/x/thread.txt",
+      "status": "ready"
+    },
+    {
+      "platform": "instagram",
+      "when": "2026-07-19T17:00:00Z",
+      "file": "platforms/instagram/final_reel.mp4",
+      "status": "ready"
+    },
+    {
+      "platform": "tiktok",
+      "when": "2026-07-19T18:30:00Z",
+      "file": "platforms/tiktok/final_tiktok.mp4",
+      "status": "ready"
+    },
+    {
+      "platform": "reddit",
+      "when": "2026-07-20T15:00:00Z",
+      "file": "platforms/reddit/post.md",
+      "status": "ready"
+    }
+  ]
+}

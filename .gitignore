@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.mp4
+*.wav
+*.mp3
+*TEMP_MPY*
+.v2_render/
+.env
+.DS_Store
+_tts_test.mp3
+_tts_probe.py

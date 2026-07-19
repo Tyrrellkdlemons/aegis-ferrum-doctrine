@@ -1,0 +1,32 @@
+{
+  "platform": "instagram",
+  "content_id": "ferrum-doctrine-001",
+  "file": "final_reel.mp4",
+  "secondary_files": [
+    "carousel_01.png",
+    "carousel_02.png",
+    "carousel_03.png",
+    "carousel_04.png",
+    "carousel_05.png"
+  ],
+  "title": "Soft is a choice. Danger is options.",
+  "description": "They sold you soft and called it balance.\n\nDanger \u2260 rage.\nDanger = options under pressure.\n\n21-day protocol on YT.\nComment OPERATIVE.\n\n#discipline #stoicism #masculinity #selfimprovement #ferrumdoctrine #mindset #hardtruths\n",
+  "tags": [
+    "discipline",
+    "stoicism",
+    "masculinity",
+    "selfimprovement",
+    "ferrumdoctrine",
+    "mindset",
+    "hardtruths",
+    "mentalstrength"
+  ],
+  "thumbnail": "carousel_01.png",
+  "schedule": "2026-07-19T17:00:00Z",
+  "status": "ready",
+  "monetization": {
+    "midroll": false,
+    "affiliate_links": [],
+    "pinned_comment": ""
+  }
+}

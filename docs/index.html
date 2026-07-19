@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AEGIS Command — Ferrum Doctrine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="top">
+    <div class="brand">
+      <span class="sigil">FD</span>
+      <div>
+        <p class="eyebrow">AEGIS PHOENIX · COMMAND DASHBOARD</p>
+        <h1>Ferrum Doctrine</h1>
+      </div>
+    </div>
+    <div class="brutality" id="brutality">
+      <p class="eyebrow">Brutality Meter</p>
+      <div class="meter"><div class="fill" id="brutalityFill"></div></div>
+      <p class="meter-score"><span id="brutalityScore">93</span>/100 · NOT WATERED DOWN</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>Content Pipeline</h2>
+      <p class="sub">Cycle ferrum-doctrine-001 — status live from manifests.</p>
+      <div class="table-wrap">
+        <table id="contentTable">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Piece</th>
+              <th>Platform</th>
+              <th>Schedule (UTC)</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Publish Calendar</h2>
+      <p class="sub">What · Where · When — read the clock, then execute.</p>
+      <div class="calendar" id="calendar"></div>
+    </section>
+
+    <section class="grid-2">
+      <div class="panel">
+        <h2>Performance (placeholders)</h2>
+        <ul class="metrics" id="metrics">
+          <li><span>Views 24h</span><strong>—</strong></li>
+          <li><span>CTR</span><strong>—</strong></li>
+          <li><span>Avg retention</span><strong>—</strong></li>
+          <li><span>Subs delta</span><strong>—</strong></li>
+          <li><span>Revenue</span><strong>—</strong></li>
+        </ul>
+        <p class="footnote">Wire YouTube Analytics API later. No fabricated numbers.</p>
+      </div>
+      <div class="panel">
+        <h2>Operator Notes</h2>
+        <ul class="notes">
+          <li>Master script: <code>content_core/master_script.md</code></li>
+          <li>Platform packs: <code>platforms/*/publish_manifest.json</code></li>
+          <li>Account: tyrrellkdlemons@gmail.com</li>
+          <li>Channel: Ferrum Doctrine · UCh82kLGeSgdCd1VNEQsZ2pg</li>
+          <li>Never upload AEGIS cuts to the kids channel.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>AEGIS · content separated from platforms · push to <code>gh-pages</code> / <code>docs</code> deploys this board.</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+{
+  "updated_at": "2026-07-18T18:35:00-07:00",
+  "cycle_id": "ferrum-doctrine-001",
+  "mode": "PHOENIX",
+  "tasks": [
+    {
+      "id": "phoenix_audit_001",
+      "type": "brutality_rewrite",
+      "status": "complete",
+      "assigned": "SOVEREIGN",
+      "details": "Rewrote content_core/master_script.md — brutality 93/100; removed therapist hedging from v2"
+    },
+    {
+      "id": "reorg_001",
+      "type": "directory_reorg",
+      "status": "complete",
+      "assigned": "SOVEREIGN",
+      "details": "content_core/ + platforms/{youtube,instagram,tiktok,x,reddit}/ + dashboard/"
+    },
+    {
+      "id": "dashboard_001",
+      "type": "dashboard_deploy",
+      "status": "in_progress",
+      "assigned": "SOVEREIGN",
+      "details": "GitHub Pages via /docs"
+    },
+    {
+      "id": "publish_001",
+      "type": "publish",
+      "status": "ready",
+      "assigned": null,
+      "details": "See platforms/*/WHAT_WHERE_WHEN.md and SCHEDULE.json — manual file drop still required for YT"
+    },
+    {
+      "id": "cycle_002",
+      "type": "master_script",
+      "status": "pending",
+      "assigned": null,
+      "details": "Next topic seed: Soft Habits That Quietly Kill Ambition"
+    }
+  ]
+}

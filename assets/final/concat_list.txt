@@ -1,0 +1,25 @@
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/broll/scene_01.png'
+duration 13.992
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/broll/scene_02.png'
+duration 13.992
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/broll/scene_03.png'
+duration 13.992
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/broll/scene_04.png'
+duration 13.992
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/broll/scene_05.png'
+duration 13.992
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/broll/scene_06.png'
+duration 13.992
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/broll/scene_07.png'
+duration 13.992
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/broll/scene_08.png'
+duration 13.992
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/broll/scene_09.png'
+duration 13.992
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/broll/scene_10.png'
+duration 13.992
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/broll/scene_11.png'
+duration 13.992
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/broll/scene_12.png'
+duration 13.992
+file 'C:/Users/TKDL/Desktop/_AI/Combined/______COMBINED AI______/Man Youtube/assets/visuals/broll/scene_12.png'
