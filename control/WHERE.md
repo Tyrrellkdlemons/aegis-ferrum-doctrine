@@ -81,3 +81,18 @@ Old paths like `platforms/youtube/final_long.mp4` still exist as **copies** of t
 - Release media: `01_long.mp4`, `02_short.mp4`, `03_thumbnail.png`
 - Scripts: `01_master_script.md`, `02_broll_shots.md`, `03_thumbnail_spec.md`
 - Never put AEGIS content on the children’s channel
+
+## Stickman Forge (short-form combat lessons)
+
+| Need | Path |
+|------|------|
+| Scripts | content_core/stickman_lessons/scripts/lesson_01.md … lesson_10.md |
+| Index | content_core/stickman_lessons/CYCLE_001_INDEX.json |
+| MP4s (9:16) | ssets/final/stickman/lesson_01.mp4 … lesson_10.mp4 |
+| YouTube Shorts manifests | platforms/youtube_shorts/lesson_XX/ |
+| Reels manifests | platforms/instagram_reels/lesson_XX/ |
+| TikTok manifests | platforms/tiktok/stickman/lesson_XX/ |
+| Renderer | pipelines/stickman_forge.py |
+
+Status: **review** — notify Authoritas before Publicator uploads.
+

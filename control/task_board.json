@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-18T19:07:00-07:00",
+  "updated_at": "2026-07-18T19:11:05-07:00",
   "cycle_id": "ferrum-doctrine-001",
   "mode": "PHOENIX_RECONCILIATION",
   "tasks": [
@@ -101,6 +101,14 @@
       "status": "complete",
       "assigned": "cursor-codex-align",
       "details": "Renamed to FD-00N cycles; platforms/upcoming; WHERE.md map; shims kept for final_long.mp4"
+    },
+    {
+      "id": "stickman_forge_cycle_001",
+      "type": "stickman_forge",
+      "status": "review",
+      "assigned": "StickmanForge",
+      "details": "10 stickman combat lessons rendered to assets/final/stickman/lesson_01..10.mp4. Awaiting Authoritas.",
+      "outputs": "content_core/stickman_lessons/CYCLE_001_INDEX.json"
     }
   ],
   "directory_map": "WHERE.md"
