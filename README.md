@@ -20,6 +20,8 @@
 
 Publication state: **locally ready, not uploaded**. Compatibility shims (`platforms/youtube/final_long.mp4`) still point at the same file.
 
+Live command dashboard: <https://tyrrellkdlemons.github.io/aegis-ferrum-doctrine/>
+
 ## Directory contract
 
 | Folder | What lives there |

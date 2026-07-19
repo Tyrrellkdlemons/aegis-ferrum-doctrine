@@ -64,3 +64,11 @@
 - Responsive browser QA passed at desktop and 390×844 mobile width.
 - `pipelines/validate_release.py` passed manifests, required files, JSON, media streams, source/deploy parity, and empty analytics placeholders.
 - No content upload or social post was executed.
+
+## 2026-07-18T19:12:40-07:00 — Dashboard deployment verified
+
+- Pull request #1 merged: `8b82d396aa88d0ca8c9ee2df8b8ff30a28b0bc27`.
+- GitHub Pages rebuilt successfully from `master` → `/docs`; latest verified build commit: `ad99539f6c0ff995597c43c9aac5de67f5edc887`.
+- Live URL: `https://tyrrellkdlemons.github.io/aegis-ferrum-doctrine/`.
+- Live DOM verified: channel The Tyrrell Codex; 4 ready; 4 review/hold; 0 published; Prometheus 87; 4 content cards; 8 calendar entries; no data-load error.
+- YouTube and social publishing remain unexecuted.

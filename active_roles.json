@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-18T19:07:00-07:00",
+  "updated_at": "2026-07-18T19:12:40-07:00",
   "mode": "PHOENIX_RECONCILIATION",
   "lock": {
     "file": ".aegis.lock",
-    "holder": "codex-root-phoenix-truthful-dashboard",
-    "branch": "agent/phoenix-final-reconcile",
-    "acquired_at": "2026-07-18T19:05:30-07:00"
+    "holder": null,
+    "released_at": "2026-07-18T19:12:40-07:00",
+    "last_branch": "agent/phoenix-final-reconcile"
   },
   "channel": {
     "name": "The Tyrrell Codex",
@@ -53,9 +53,9 @@
       "note": "No platform upload was executed in this dashboard/reorganization request."
     },
     "Dashboard": {
-      "assignee": "codex-root-phoenix-truthful-dashboard",
-      "status": "deploying",
-      "note": "Responsive local QA passed; GitHub Pages source is docs/."
+      "assignee": null,
+      "status": "complete",
+      "note": "GitHub Pages built successfully and the live desktop data render was verified."
     },
     "Analytica": {
       "assignee": null,
