@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-18T19:11:05-07:00",
+  "updated_at": "2026-07-18T19:12:40-07:00",
   "cycle_id": "ferrum-doctrine-001",
   "mode": "PHOENIX_RECONCILIATION",
   "tasks": [
@@ -63,9 +63,9 @@
     {
       "id": "dashboard_deploy_001",
       "type": "dashboard_deploy",
-      "status": "in_progress",
-      "assigned": "codex-root-phoenix-truthful-dashboard",
-      "details": "Responsive local QA passed. Commit, merge, and GitHub Pages verification remain."
+      "status": "complete",
+      "assigned": null,
+      "details": "Live at https://tyrrellkdlemons.github.io/aegis-ferrum-doctrine/; Pages build ad99539 succeeded; live data render verified."
     },
     {
       "id": "script_002",

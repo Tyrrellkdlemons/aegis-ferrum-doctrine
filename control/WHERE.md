@@ -17,6 +17,7 @@ Read this first when you need whereabouts. Generated: 20260719T020301Z
 | Upcoming videos | `platforms/upcoming/FD-00N_*/` |
 | QA seal | `prometheus/v2_seal.json` |
 | Dashboard source | `dashboard/` → published from `docs/` |
+| Live dashboard | `https://tyrrellkdlemons.github.io/aegis-ferrum-doctrine/` |
 | Brand rules | `content_core/00_BRAND_STYLE.md` |
 | Full index | `content_core/00_INDEX.json` |
 | Old junk | `archive/` and `assets/archive_legacy_renders/` |
@@ -73,7 +74,7 @@ Old paths like `platforms/youtube/final_long.mp4` still exist as **copies** of t
 - FD-001: local media cleared, not uploaded.
 - FD-002: full master complete; existing media requires re-render and Prometheus review.
 - FD-003/004: outlines only; existing media remains on QA hold.
-- Dashboard: GitHub Pages deployment source is `docs/`.
+- Dashboard: GitHub Pages deployment source is `docs/`; live build verified at `https://tyrrellkdlemons.github.io/aegis-ferrum-doctrine/`.
 
 ## Naming rules (going forward)
 
