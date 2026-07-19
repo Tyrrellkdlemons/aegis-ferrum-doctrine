@@ -2,70 +2,88 @@
   "cycle": "stickman_forge_cycle_001",
   "series": "Ferrum Doctrine Stickman Combat Lessons",
   "channel": "The Tyrrell Codex",
+  "engine": "stickman_manim",
   "count": 10,
-  "generated_at": "2026-07-19T02:10:47.499735+00:00",
+  "generated_at": "2026-07-19T02:34:47.026708+00:00",
   "lessons": [
     {
       "id": "lesson_01",
       "title": "Comfort Is a Cage",
       "file": "assets/final/stickman/lesson_01.mp4",
-      "bytes": 540886
+      "bytes": 11206458,
+      "engine": "manim"
     },
     {
       "id": "lesson_02",
       "title": "Respect Is Earned Under Pressure",
       "file": "assets/final/stickman/lesson_02.mp4",
-      "bytes": 559599
+      "bytes": 3550088,
+      "engine": "v2"
     },
     {
       "id": "lesson_03",
       "title": "Your Phone Owns You",
       "file": "assets/final/stickman/lesson_03.mp4",
-      "bytes": 520721
+      "bytes": 2876200,
+      "engine": "v2"
     },
     {
       "id": "lesson_04",
       "title": "Cheap Pleasure Steals Your Frame",
       "file": "assets/final/stickman/lesson_04.mp4",
-      "bytes": 562497
+      "bytes": 3408923,
+      "engine": "v2"
     },
     {
       "id": "lesson_05",
       "title": "Speak Second",
       "file": "assets/final/stickman/lesson_05.mp4",
-      "bytes": 697472
+      "bytes": 1219406,
+      "engine": "v2"
     },
     {
       "id": "lesson_06",
       "title": "Soft Habits Bleed Ambition",
       "file": "assets/final/stickman/lesson_06.mp4",
-      "bytes": 542604
+      "bytes": 2165506,
+      "engine": "v2"
     },
     {
       "id": "lesson_07",
       "title": "Pain Is Tuition",
       "file": "assets/final/stickman/lesson_07.mp4",
-      "bytes": 684786
+      "bytes": 4368760,
+      "engine": "v2"
     },
     {
       "id": "lesson_08",
       "title": "Nobody Is Coming",
       "file": "assets/final/stickman/lesson_08.mp4",
-      "bytes": 487023
+      "bytes": 2010168,
+      "engine": "v2"
     },
     {
       "id": "lesson_09",
       "title": "Options Beat Excuses",
       "file": "assets/final/stickman/lesson_09.mp4",
-      "bytes": 751702
+      "bytes": 3379610,
+      "engine": "v2"
     },
     {
       "id": "lesson_10",
       "title": "One Non-Negotiable",
       "file": "assets/final/stickman/lesson_10.mp4",
-      "bytes": 590490
+      "bytes": 2012440,
+      "engine": "v2"
     }
   ],
   "status": "review",
-  "note": "Ready for Authoritas review then Publicator short-form upload."
+  "quality_bar": {
+    "benchmark": "viral stickman fight Shorts/Reels",
+    "fps": 30,
+    "resolution": "1080x1920",
+    "crf": 16,
+    "vs_v1": "interpolated combat + impact FX + kinetic captions + SFX"
+  },
+  "note": "Manim cinematic stickman \u2014 viral motion bar. Authoritas review. Higgsfield still needs auth login."
 }

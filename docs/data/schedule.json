@@ -6,7 +6,7 @@
   },
   "series": "Ferrum Doctrine",
   "timezone": "America/Los_Angeles",
-  "updated_at": "2026-07-18T19:16:00-07:00",
+  "updated_at": "2026-07-18T19:35:43-07:00",
   "editorial_intensity": {
     "score": 91,
     "label": "UNWATERED",
@@ -63,135 +63,145 @@
       "title": "Comfort Is a Cage",
       "type": "vertical combat lesson",
       "status": "review",
-      "detail": "Local render exists. Awaiting Authoritas and Prometheus review; not scheduled for publication.",
-      "source": "content_core/stickman_lessons/scripts/lesson_01.md"
+      "detail": "Stickman Forge V2 cinematic render complete (decode QA sampled). Awaiting Authoritas before Publicator upload.",
+      "source": "content_core/stickman_lessons/scripts/lesson_01.md",
+      "engine": "stickman_forge_v2"
     },
     {
       "id": "STICKMAN-02",
       "title": "Respect Is Earned Under Pressure",
       "type": "vertical combat lesson",
       "status": "review",
-      "detail": "Local render exists. Awaiting Authoritas and Prometheus review; not scheduled for publication.",
-      "source": "content_core/stickman_lessons/scripts/lesson_02.md"
+      "detail": "Stickman Forge V2 cinematic render complete (decode QA sampled). Awaiting Authoritas before Publicator upload.",
+      "source": "content_core/stickman_lessons/scripts/lesson_02.md",
+      "engine": "stickman_forge_v2"
     },
     {
       "id": "STICKMAN-03",
       "title": "Your Phone Owns You",
       "type": "vertical combat lesson",
       "status": "review",
-      "detail": "Local render exists. Awaiting Authoritas and Prometheus review; not scheduled for publication.",
-      "source": "content_core/stickman_lessons/scripts/lesson_03.md"
+      "detail": "Stickman Forge V2 cinematic render complete (decode QA sampled). Awaiting Authoritas before Publicator upload.",
+      "source": "content_core/stickman_lessons/scripts/lesson_03.md",
+      "engine": "stickman_forge_v2"
     },
     {
       "id": "STICKMAN-04",
       "title": "Cheap Pleasure Steals Your Frame",
       "type": "vertical combat lesson",
       "status": "review",
-      "detail": "Local render exists. Awaiting Authoritas and Prometheus review; not scheduled for publication.",
-      "source": "content_core/stickman_lessons/scripts/lesson_04.md"
+      "detail": "Stickman Forge V2 cinematic render complete (decode QA sampled). Awaiting Authoritas before Publicator upload.",
+      "source": "content_core/stickman_lessons/scripts/lesson_04.md",
+      "engine": "stickman_forge_v2"
     },
     {
       "id": "STICKMAN-05",
       "title": "Speak Second",
       "type": "vertical combat lesson",
       "status": "review",
-      "detail": "Local render exists. Awaiting Authoritas and Prometheus review; not scheduled for publication.",
-      "source": "content_core/stickman_lessons/scripts/lesson_05.md"
+      "detail": "Stickman Forge V2 cinematic render complete (decode QA sampled). Awaiting Authoritas before Publicator upload.",
+      "source": "content_core/stickman_lessons/scripts/lesson_05.md",
+      "engine": "stickman_forge_v2"
     },
     {
       "id": "STICKMAN-06",
       "title": "Soft Habits Bleed Ambition",
       "type": "vertical combat lesson",
       "status": "review",
-      "detail": "Local render exists. Awaiting Authoritas and Prometheus review; not scheduled for publication.",
-      "source": "content_core/stickman_lessons/scripts/lesson_06.md"
+      "detail": "Stickman Forge V2 cinematic render complete (decode QA sampled). Awaiting Authoritas before Publicator upload.",
+      "source": "content_core/stickman_lessons/scripts/lesson_06.md",
+      "engine": "stickman_forge_v2"
     },
     {
       "id": "STICKMAN-07",
       "title": "Pain Is Tuition",
       "type": "vertical combat lesson",
       "status": "review",
-      "detail": "Local render exists. Awaiting Authoritas and Prometheus review; not scheduled for publication.",
-      "source": "content_core/stickman_lessons/scripts/lesson_07.md"
+      "detail": "Stickman Forge V2 cinematic render complete (decode QA sampled). Awaiting Authoritas before Publicator upload.",
+      "source": "content_core/stickman_lessons/scripts/lesson_07.md",
+      "engine": "stickman_forge_v2"
     },
     {
       "id": "STICKMAN-08",
       "title": "Nobody Is Coming",
       "type": "vertical combat lesson",
       "status": "review",
-      "detail": "Local render exists. Awaiting Authoritas and Prometheus review; not scheduled for publication.",
-      "source": "content_core/stickman_lessons/scripts/lesson_08.md"
+      "detail": "Stickman Forge V2 cinematic render complete (decode QA sampled). Awaiting Authoritas before Publicator upload.",
+      "source": "content_core/stickman_lessons/scripts/lesson_08.md",
+      "engine": "stickman_forge_v2"
     },
     {
       "id": "STICKMAN-09",
       "title": "Options Beat Excuses",
       "type": "vertical combat lesson",
       "status": "review",
-      "detail": "Local render exists. Awaiting Authoritas and Prometheus review; not scheduled for publication.",
-      "source": "content_core/stickman_lessons/scripts/lesson_09.md"
+      "detail": "Stickman Forge V2 cinematic render complete (decode QA sampled). Awaiting Authoritas before Publicator upload.",
+      "source": "content_core/stickman_lessons/scripts/lesson_09.md",
+      "engine": "stickman_forge_v2"
     },
     {
       "id": "STICKMAN-10",
       "title": "One Non-Negotiable",
       "type": "vertical combat lesson",
       "status": "review",
-      "detail": "Local render exists. Awaiting Authoritas and Prometheus review; not scheduled for publication.",
-      "source": "content_core/stickman_lessons/scripts/lesson_10.md"
+      "detail": "Stickman Forge V2 cinematic render complete (decode QA sampled). Awaiting Authoritas before Publicator upload.",
+      "source": "content_core/stickman_lessons/scripts/lesson_10.md",
+      "engine": "stickman_forge_v2"
     }
   ],
   "posts": [
     {
       "platform": "x",
-      "piece": "FD-001 · eight-post field report",
+      "piece": "FD-001 \u00b7 eight-post field report",
       "when": "2026-07-19T17:00:00-07:00",
       "status": "ready_text_not_published",
       "file": "platforms/x/FD-001_release/01_thread.txt"
     },
     {
       "platform": "youtube",
-      "piece": "FD-001 · long-form",
+      "piece": "FD-001 \u00b7 long-form",
       "when": "2026-07-19T18:00:00-07:00",
       "status": "ready_local_not_published",
       "file": "platforms/youtube/FD-001_release/01_long.mp4"
     },
     {
       "platform": "instagram",
-      "piece": "FD-001 · Stoicism is not numbness",
+      "piece": "FD-001 \u00b7 Stoicism is not numbness",
       "when": "2026-07-19T19:30:00-07:00",
       "status": "ready_local_not_published",
       "file": "platforms/instagram/FD-001_release/01_reel.mp4"
     },
     {
       "platform": "tiktok",
-      "piece": "FD-001 · One promise rebuilds self-trust",
+      "piece": "FD-001 \u00b7 One promise rebuilds self-trust",
       "when": "2026-07-19T20:30:00-07:00",
       "status": "ready_local_not_published",
       "file": "platforms/tiktok/FD-001_release/01_tiktok.mp4"
     },
     {
       "platform": "reddit",
-      "piece": "FD-001 · value-first protocol post",
+      "piece": "FD-001 \u00b7 value-first protocol post",
       "when": "2026-07-20T11:00:00-07:00",
       "status": "review_rules_before_posting",
       "file": "platforms/reddit/FD-001_release/01_post.md"
     },
     {
       "platform": "youtube",
-      "piece": "FD-002 · Soft Habits Kill Ambition",
+      "piece": "FD-002 \u00b7 Soft Habits Kill Ambition",
       "when": "2026-07-20T18:00:00-07:00",
       "status": "qa_hold",
       "file": "platforms/upcoming/FD-002_soft-habits/youtube/"
     },
     {
       "platform": "youtube",
-      "piece": "FD-003 · Spy Method Room Read",
+      "piece": "FD-003 \u00b7 Spy Method Room Read",
       "when": "2026-07-21T18:00:00-07:00",
       "status": "qa_hold",
       "file": "platforms/upcoming/FD-003_spy-room-read/youtube/"
     },
     {
       "platform": "youtube",
-      "piece": "FD-004 · Mental Fortress / Digital Noise",
+      "piece": "FD-004 \u00b7 Mental Fortress / Digital Noise",
       "when": "2026-07-22T18:00:00-07:00",
       "status": "qa_hold",
       "file": "platforms/upcoming/FD-004_mental-fortress/youtube/"
@@ -204,5 +214,13 @@
     "subscriber_delta": null,
     "revenue_usd": null,
     "note": "Placeholders remain empty until platform APIs return real data."
+  },
+  "stickman_forge": {
+    "cycle": "stickman_forge_cycle_001",
+    "engine": "stickman_forge_v2",
+    "status": "review",
+    "lessons": 10,
+    "index": "content_core/stickman_lessons/CYCLE_001_INDEX.json",
+    "quality_standard": "content_core/stickman_lessons/QUALITY_STANDARD_V2.md"
   }
 }

@@ -2,12 +2,14 @@
   "platform": "instagram",
   "content_id": "stickman-lesson_10",
   "series": "Ferrum Doctrine Stickman Combat Lessons",
+  "engine": "stickman_forge_v2",
   "file": "assets/final/stickman/lesson_10.mp4",
   "title": "One Non-Negotiable | Ferrum Doctrine Stickman",
-  "description": "If everything is flexible, you are not disciplined. You are negotiable.\n\nPick one non-negotiable before midnight. Keep it twenty-one days. Or stay optional. Decide.\n\nFerrum Doctrine \u2014 stickman combat lessons for men who want standards.\n\n#FerrumDoctrine #Discipline #Stickman #Masculinity #SelfMastery #HardTruths #Mindset\n",
+  "description": "If everything is flexible, you are not disciplined. You are negotiable.\n\nPick one non-negotiable before midnight. Keep it twenty-one days. Or stay optional. Decide.\n\nFerrum Doctrine \u2014 cinematic stickman combat lessons.\nChannel: The Tyrrell Codex\n\n#FerrumDoctrine #Discipline #Stickman #StickmanFight #Masculinity #SelfMastery #HardTruths #Mindset #Shorts #Reels\n",
   "tags": [
     "ferrum doctrine",
     "stickman",
+    "stickman fight",
     "discipline",
     "self mastery",
     "hard truths for men",
@@ -15,12 +17,13 @@
     "stoicism",
     "frame control",
     "anti comfort",
-    "short lesson"
+    "youtube shorts"
   ],
   "thumbnail": null,
   "schedule": "2026-07-21T05:00:00Z",
   "status": "review",
-  "pinned_comment": "You either do the demand or stay weak. Decide. Full channel: The Tyrrell Codex / Ferrum Doctrine.",
+  "quality_bar": "v2_cinematic_viral_benchmark",
+  "pinned_comment": "You either do the demand or stay weak. Decide. The Tyrrell Codex / Ferrum Doctrine.",
   "monetization": {
     "midroll": false,
     "affiliate_links": [],

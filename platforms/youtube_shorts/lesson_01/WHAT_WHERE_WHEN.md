@@ -1,6 +1,7 @@
 # Comfort Is a Cage
 
-- WHAT: Stickman lesson MP4
+- WHAT: Stickman Forge V2 cinematic MP4
 - WHERE: youtube
 - WHEN: 2026-07-20T02:00:00Z
 - FILE: assets/final/stickman/lesson_01.mp4
+- ENGINE: v2

@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-18T19:16:00-07:00",
+  "updated_at": "2026-07-18T19:37:04-07:00",
   "cycle_id": "ferrum-doctrine-001",
-  "mode": "PHOENIX_RECONCILIATION",
+  "mode": "CONTINUATION_FIX_AND_GO",
   "tasks": [
     {
       "id": "audit_001",
@@ -28,9 +28,9 @@
     {
       "id": "publish_youtube_001",
       "type": "publish_youtube",
-      "status": "ready_local_not_published",
+      "status": "ready_local_awaiting_operator_sign_in",
       "assigned": null,
-      "details": "platforms/youtube/FD-001_release/01_long.mp4 plus 03_thumbnail.png; no external upload executed."
+      "details": "Pack opened + Studio upload URL launched. Automation browser lacks Google session; operator must complete sign-in/file select. Canonical: platforms/youtube/FD-001_release/."
     },
     {
       "id": "publish_instagram_001",
@@ -79,7 +79,7 @@
       "type": "visual_qa",
       "status": "rework",
       "assigned": null,
-      "details": "Existing buffer render is not evidence-cleared. Rebuild against expanded script, then run Prometheus."
+      "details": "FD-002 script complete (918 words). Buffer media remains unsealed. Next production cycle after FD-001 publish confirmation."
     },
     {
       "id": "visual_qa_003",
@@ -107,8 +107,9 @@
       "type": "stickman_forge",
       "status": "review",
       "assigned": "StickmanForge",
-      "details": "10 stickman combat lessons rendered to assets/final/stickman/lesson_01..10.mp4. Awaiting Authoritas.",
-      "outputs": "content_core/stickman_lessons/CYCLE_001_INDEX.json"
+      "details": "All 10 Stickman Forge V2 cinematic lessons rendered and decode-sampled (01/05/10). Held for Authoritas before Publicator.",
+      "outputs": "content_core/stickman_lessons/CYCLE_001_INDEX.json",
+      "engine": "stickman_forge_v2"
     }
   ],
   "directory_map": "WHERE.md"

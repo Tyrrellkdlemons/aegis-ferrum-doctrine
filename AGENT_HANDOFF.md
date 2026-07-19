@@ -6,6 +6,7 @@
 2. `README.md` — contract  
 3. `task_board.json` · `active_roles.json` · `publish_clearance.json`  
 4. `content_core/00_INDEX.json` · `prometheus/v2_seal.json`
+5. `platforms/youtube/FD-001_release/OPERATOR_UPLOAD_CARD.md`
 
 ## Identity
 
@@ -26,9 +27,15 @@ Canonical pack:
 - `platforms/instagram/FD-001_release/01_reel.mp4`
 - `platforms/tiktok/FD-001_release/01_tiktok.mp4`
 - Master: `content_core/cycles/FD-001_capability-protocol/01_master_script.md`
-- Seal: `prometheus/v2_seal.json`
+- Seal: `prometheus/v2_seal.json` (visual 87 / thumbnail 93)
+- Upload card: `platforms/youtube/FD-001_release/OPERATOR_UPLOAD_CARD.md`
 
-Shims `platforms/youtube/final_long.mp4` etc. still work; prefer `FD-001_release/` names.
+## Stickman Forge Cycle 001
+
+- Engine: `stickman_forge_v2` — all 10 lessons rendered
+- Status: **review** (Authoritas before Publicator)
+- Index: `content_core/stickman_lessons/CYCLE_001_INDEX.json`
+- Media: `assets/final/stickman/lesson_01.mp4` … `lesson_10.mp4`
 
 ## Upcoming
 
@@ -41,9 +48,11 @@ Shims `platforms/youtube/final_long.mp4` etc. still work; prefer `FD-001_release
 ## Dashboard
 
 Edit `dashboard/`, copy to `docs/`, push the branch GitHub Pages uses (`master` /docs).
+Live: https://tyrrellkdlemons.github.io/aegis-ferrum-doctrine/
 
 ## Next actions
 
-1. Operator upload FD-001 from `platforms/youtube/FD-001_release/`  
-2. QA/rework upcoming FD-002..004 as needed  
-3. Keep naming: `FD-00N_slug` + `01_long.mp4` style
+1. **Operator:** complete FD-001 upload from `OPERATOR_UPLOAD_CARD.md` (Studio tab should be open)
+2. Paste publish URL into `publish_clearance.json` + flip task/dashboard to published
+3. Authoritas review Stickman V2 → then schedule Shorts
+4. Rebuild FD-002 media against expanded master; Prometheus seal before promote

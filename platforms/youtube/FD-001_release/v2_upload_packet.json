@@ -30,7 +30,7 @@
   "made_for_kids": false,
   "altered_or_synthetic_content": true,
   "contains_paid_promotion": false,
-  "video_path": "assets/final/why_most_men_never_build_real_capability_v2_long.mp4",
-  "thumbnail_path": "assets/visuals/thumbnails/thumbnail_final-v2.png",
+  "video_path": "platforms/youtube/FD-001_release/01_long.mp4",
+  "thumbnail_path": "platforms/youtube/FD-001_release/03_thumbnail.png",
   "qa_seal": "prometheus/v2_seal.json"
 }

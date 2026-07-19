@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-18T19:12:40-07:00",
-  "mode": "PHOENIX_RECONCILIATION",
+  "updated_at": "2026-07-18T19:37:04-07:00",
+  "mode": "CONTINUATION_FIX_AND_GO",
   "lock": {
     "file": ".aegis.lock",
     "holder": null,
-    "released_at": "2026-07-18T19:12:40-07:00",
+    "released_at": "2026-07-18T19:37:04-07:00",
     "last_branch": "agent/phoenix-final-reconcile"
   },
   "channel": {
@@ -45,12 +45,12 @@
     "Editorius": {
       "assignee": null,
       "status": "complete",
-      "note": "Cycle 001 local platform media replaced with inspected V2 long-form and dedicated vertical edits."
+      "note": "Stickman Forge V2 complete for lessons 01-10; FD-001 media unchanged and validated."
     },
     "Publicator": {
-      "assignee": null,
-      "status": "ready_local_not_published",
-      "note": "No platform upload was executed in this dashboard/reorganization request."
+      "assignee": "cursor-continuation-fix-go",
+      "status": "blocked_needs_google_session",
+      "note": "Studio upload URL and FD-001 pack opened for operator. Automation Chrome has no Google session; complete upload manually from OPERATOR_UPLOAD_CARD.md."
     },
     "Dashboard": {
       "assignee": null,

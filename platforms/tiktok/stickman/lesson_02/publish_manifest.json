@@ -1,29 +1,19 @@
 {
   "platform": "tiktok",
   "content_id": "stickman-lesson_02",
-  "series": "Ferrum Doctrine Stickman Combat Lessons",
+  "engine": "stickman_manim",
   "file": "assets/final/stickman/lesson_02.mp4",
   "title": "Respect Is Earned Under Pressure | Ferrum Doctrine Stickman",
-  "description": "Most men die without ever being respected. Here's why.\n\nKeep one hard promise for seven days. Break it and restart. Or stay invisible. Decide.\n\nFerrum Doctrine \u2014 stickman combat lessons for men who want standards.\n\n#FerrumDoctrine #Discipline #Stickman #Masculinity #SelfMastery #HardTruths #Mindset\n",
+  "description": "Most men die without ever being respected. Here's why.\n\nKeep one hard promise for seven days. Break it and restart. Or stay invisible. Decide.\n\nFerrum Doctrine \u2014 Manim cinematic stickman combat lessons.\nChannel: The Tyrrell Codex\n\n#FerrumDoctrine #Discipline #Stickman #StickmanFight #Masculinity #SelfMastery #Shorts #Reels\n",
   "tags": [
     "ferrum doctrine",
     "stickman",
+    "stickman fight",
     "discipline",
-    "self mastery",
-    "hard truths for men",
-    "masculinity",
-    "stoicism",
-    "frame control",
-    "anti comfort",
-    "short lesson"
+    "manim",
+    "shorts"
   ],
-  "thumbnail": null,
   "schedule": "2026-07-20T05:00:00Z",
   "status": "review",
-  "pinned_comment": "You either do the demand or stay weak. Decide. Full channel: The Tyrrell Codex / Ferrum Doctrine.",
-  "monetization": {
-    "midroll": false,
-    "affiliate_links": [],
-    "pinned_comment": "Decide. Or stay weak."
-  }
+  "quality_bar": "manim_viral_stickman"
 }

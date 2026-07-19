@@ -1,29 +1,19 @@
 {
-  "platform": "instagram",
+  "platform": "instagram_reels",
   "content_id": "stickman-lesson_03",
-  "series": "Ferrum Doctrine Stickman Combat Lessons",
+  "engine": "stickman_manim",
   "file": "assets/final/stickman/lesson_03.mp4",
   "title": "Your Phone Owns You | Ferrum Doctrine Stickman",
-  "description": "If your attention is for rent, your life is already owned.\n\nFirst sixty minutes tomorrow \u2014 no phone. Fail and you stay leased. Decide.\n\nFerrum Doctrine \u2014 stickman combat lessons for men who want standards.\n\n#FerrumDoctrine #Discipline #Stickman #Masculinity #SelfMastery #HardTruths #Mindset\n",
+  "description": "If your attention is for rent, your life is already owned.\n\nFirst sixty minutes tomorrow \u2014 no phone. Fail and you stay leased. Decide.\n\nFerrum Doctrine \u2014 Manim cinematic stickman combat lessons.\nChannel: The Tyrrell Codex\n\n#FerrumDoctrine #Discipline #Stickman #StickmanFight #Masculinity #SelfMastery #Shorts #Reels\n",
   "tags": [
     "ferrum doctrine",
     "stickman",
+    "stickman fight",
     "discipline",
-    "self mastery",
-    "hard truths for men",
-    "masculinity",
-    "stoicism",
-    "frame control",
-    "anti comfort",
-    "short lesson"
+    "manim",
+    "shorts"
   ],
-  "thumbnail": null,
   "schedule": "2026-07-20T08:00:00Z",
   "status": "review",
-  "pinned_comment": "You either do the demand or stay weak. Decide. Full channel: The Tyrrell Codex / Ferrum Doctrine.",
-  "monetization": {
-    "midroll": false,
-    "affiliate_links": [],
-    "pinned_comment": "Decide. Or stay weak."
-  }
+  "quality_bar": "manim_viral_stickman"
 }

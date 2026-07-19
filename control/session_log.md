@@ -80,3 +80,15 @@
 - Kept the lessons out of the publishing calendar until Authoritas and Prometheus review.
 - Updated summary state to 4 ready, 14 review/hold, and 0 published.
 - Release validator confirmed all 10 local review files exist and the dashboard enumerates every lesson.
+
+## 2026-07-18T19:36:00-07:00 — Continuation FIX AND GO
+
+- Finished Stickman Forge V2 for lessons 08-10; all 10 lessons now engine=v2 with multi-MB cinematic encodes.
+- Sampled decode QA frames for lessons 01/05/10 under prometheus/qa_frames/stickman_v2/.
+- Fixed WHERE.md Stickman path corruption; updated dashboard/docs schedule for V2 review state.
+- Fixed Windows browse MCP launcher (PE binary at plugin .bin/browse) — daemon still unstable; CDP debug Chrome lacks Google session.
+- Canonical FD-001 upload pack paths reconciled in v2_upload_packet.json; wrote OPERATOR_UPLOAD_CARD.md.
+- Opened platforms/youtube/FD-001_release/ and launched YouTube Studio upload URL in the default browser.
+- No publish URL recorded — external upload still requires operator Google session confirmation.
+- FD-002 remains script_complete_media_rework (no false seal).
+
