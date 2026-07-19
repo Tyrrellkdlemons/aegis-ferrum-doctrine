@@ -66,7 +66,14 @@ Man Youtube/
 
 ## Compatibility shims
 
-Old paths like `platforms/youtube/final_long.mp4` still exist as **copies** of the FD-001 release files so Codex handoff paths keep working. Prefer the `FD-001_release/` names going forward.
+Old paths like `platforms/youtube/final_long.mp4` still exist as **copies** of the FD-001 release files so Codex handoff paths keep working. Prefer the `FD-001_release/` names going forward. The legacy files under `assets/archive_legacy_renders/` are archive material, not release inputs.
+
+## Current gate
+
+- FD-001: local media cleared, not uploaded.
+- FD-002: full master complete; existing media requires re-render and Prometheus review.
+- FD-003/004: outlines only; existing media remains on QA hold.
+- Dashboard: GitHub Pages deployment source is `docs/`.
 
 ## Naming rules (going forward)
 

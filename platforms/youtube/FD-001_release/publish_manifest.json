@@ -42,7 +42,7 @@
   "series": "Ferrum Doctrine",
   "made_for_kids": false,
   "altered_or_synthetic_content": true,
-  "qa_seal": "../../prometheus/v2_seal.json",
+  "qa_seal": "../../../prometheus/v2_seal.json",
   "sha256": "C5AD6DC35EEFA301C1AED0AD2F383B96B730B69F8B4C67F418D9CEEA61A0D07A",
   "pack_path": "platforms/youtube/FD-001_release/"
 }

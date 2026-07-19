@@ -1,7 +1,7 @@
 {
   "platform": "instagram",
   "content_id": "ferrum-doctrine-001",
-  "file": "final_reel.mp4",
+  "file": "01_reel.mp4",
   "title": "Stoicism is not numbness",
   "description": "Going numb is not command. Notice anger, fear, and pride without letting them write your next move. One breath. Name the objective. Answer that—not the insult.\n\nFull 21-day field protocol on The Tyrrell Codex.",
   "tags": [
@@ -30,5 +30,6 @@
   ],
   "schedule_basis": "Provisional evening slot; replace with account Insights when available.",
   "altered_or_synthetic_content": true,
-  "qa_seal": "../../prometheus/v2_seal.json"
+  "qa_seal": "../../../prometheus/v2_seal.json",
+  "pack_path": "platforms/instagram/FD-001_release/"
 }

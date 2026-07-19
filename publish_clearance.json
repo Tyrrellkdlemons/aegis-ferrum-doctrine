@@ -6,7 +6,7 @@
   "local_release_cleared": true,
   "external_publish_executed": false,
   "external_publish_urls": [],
-  "timestamp": "2026-07-18T19:15:00-07:00",
+  "timestamp": "2026-07-18T19:07:00-07:00",
   "evidence": {
     "qa_seal": "prometheus/v2_seal.json",
     "qa_report": "prometheus/qa_report_v2.md",

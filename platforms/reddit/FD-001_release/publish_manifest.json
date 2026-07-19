@@ -1,7 +1,7 @@
 {
   "platform": "reddit",
   "content_id": "ferrum-doctrine-001",
-  "file": "post.md",
+  "file": "01_post.md",
   "title": "Capability under pressure: a 21-day protocol",
   "description": "A standalone, value-first text post. Review the target community’s current rules before posting; do not link-dump.",
   "tags": [
@@ -16,5 +16,6 @@
     "pinned_comment": ""
   },
   "status": "review_rules_before_posting",
-  "schedule_basis": "Provisional late-morning slot; community rules and account analytics take precedence."
+  "schedule_basis": "Provisional late-morning slot; community rules and account analytics take precedence.",
+  "pack_path": "platforms/reddit/FD-001_release/"
 }

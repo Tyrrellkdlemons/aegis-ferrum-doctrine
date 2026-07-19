@@ -10,7 +10,7 @@
   "status": "clear_for_upload",
   "timestamp": "2026-07-18T18:38:00-07:00",
   "long_form": {
-    "path": "assets/final/why_most_men_never_build_real_capability_v2_long.mp4",
+    "path": "platforms/youtube/FD-001_release/01_long.mp4",
     "duration_seconds": 398.96,
     "bytes": 86854244,
     "video": "H.264 High 1920x1080 24fps",
@@ -21,11 +21,11 @@
     "decode_check": "pass"
   },
   "approved_verticals": [
-    "assets/final/shorts_v2/01_danger_is_not_rage.mp4",
-    "assets/final/shorts_v2/02_stoicism_is_not_numbness.mp4",
-    "assets/final/shorts_v2/03_one_promise_rebuilds_self_trust.mp4"
+    "platforms/youtube/FD-001_release/02_short.mp4",
+    "platforms/instagram/FD-001_release/01_reel.mp4",
+    "platforms/tiktok/FD-001_release/01_tiktok.mp4"
   ],
-  "rejected_asset": "initial center-cropped short with clipped captions",
+  "rejected_asset": "archived initial center-cropped short with clipped captions",
   "required_upload_settings": {
     "altered_or_synthetic_content": true,
     "made_for_kids": false,

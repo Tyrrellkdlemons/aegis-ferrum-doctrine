@@ -1,64 +1,128 @@
 {
-  "content_id": "FD-pipeline",
-  "brutality_score": 91,
-  "brand": "The Tyrrell Codex / Ferrum Doctrine",
-  "clearance": "local_ready_not_uploaded",
-  "posts": [
+  "schema_version": 3,
+  "channel": {
+    "name": "The Tyrrell Codex",
+    "channel_id": "UCh82kLGeSgdCd1VNEQsZ2pg"
+  },
+  "series": "Ferrum Doctrine",
+  "timezone": "America/Los_Angeles",
+  "updated_at": "2026-07-18T19:07:00-07:00",
+  "editorial_intensity": {
+    "score": 91,
+    "label": "UNWATERED",
+    "method": "Tongue-in-cheek editorial self-score; not a performance or safety metric."
+  },
+  "prometheus": {
+    "visual_score": 87,
+    "threshold": 85,
+    "thumbnail_score": 93,
+    "thumbnail_threshold": 90,
+    "seal": "prometheus/v2_seal.json",
+    "decision": "PASS"
+  },
+  "summary": {
+    "ready": 4,
+    "review": 4,
+    "published": 0
+  },
+  "content": [
     {
-      "platform": "youtube",
-      "piece": "FD-001 long",
-      "when": "2026-07-19T12:00:00Z",
-      "status": "ready_local",
-      "file": "platforms/youtube/FD-001_release/01_long.mp4"
+      "id": "FD-001",
+      "title": "Why Most Men Never Build Real Capability",
+      "type": "master + five platform packs",
+      "status": "ready_local_not_published",
+      "detail": "6:38.96 long-form and three dedicated vertical cuts passed evidence-based Prometheus review.",
+      "source": "content_core/cycles/FD-001_capability-protocol/01_master_script.md"
     },
     {
+      "id": "FD-002",
+      "title": "Soft Habits That Quietly Kill Ambition",
+      "type": "next-cycle master",
+      "status": "script_complete_media_rework",
+      "detail": "Full master and platform adaptations are complete. Existing buffer render has no evidence-based visual seal.",
+      "source": "content_core/cycles/FD-002_soft-habits/01_master_script.md"
+    },
+    {
+      "id": "FD-003",
+      "title": "The Spy Method: Read Any Room in 10 Seconds",
+      "type": "buffer outline",
+      "status": "outline_complete_media_rework",
+      "detail": "Outline exists. Render remains on QA hold.",
+      "source": "content_core/cycles/FD-003_spy-room-read/01_master_script.md"
+    },
+    {
+      "id": "FD-004",
+      "title": "Build a Mental Fortress Against Digital Noise",
+      "type": "buffer outline",
+      "status": "outline_complete_media_rework",
+      "detail": "Outline exists. Render remains on QA hold.",
+      "source": "content_core/cycles/FD-004_mental-fortress/01_master_script.md"
+    }
+  ],
+  "posts": [
+    {
       "platform": "x",
-      "piece": "FD-001 thread",
-      "when": "2026-07-19T13:00:00Z",
-      "status": "ready_local",
+      "piece": "FD-001 · eight-post field report",
+      "when": "2026-07-19T17:00:00-07:00",
+      "status": "ready_text_not_published",
       "file": "platforms/x/FD-001_release/01_thread.txt"
     },
     {
+      "platform": "youtube",
+      "piece": "FD-001 · long-form",
+      "when": "2026-07-19T18:00:00-07:00",
+      "status": "ready_local_not_published",
+      "file": "platforms/youtube/FD-001_release/01_long.mp4"
+    },
+    {
       "platform": "instagram",
-      "piece": "FD-001 reel",
-      "when": "2026-07-19T17:00:00Z",
-      "status": "ready_local",
+      "piece": "FD-001 · Stoicism is not numbness",
+      "when": "2026-07-19T19:30:00-07:00",
+      "status": "ready_local_not_published",
       "file": "platforms/instagram/FD-001_release/01_reel.mp4"
     },
     {
       "platform": "tiktok",
-      "piece": "FD-001 short",
-      "when": "2026-07-19T18:30:00Z",
-      "status": "ready_local",
+      "piece": "FD-001 · One promise rebuilds self-trust",
+      "when": "2026-07-19T20:30:00-07:00",
+      "status": "ready_local_not_published",
       "file": "platforms/tiktok/FD-001_release/01_tiktok.mp4"
     },
     {
       "platform": "reddit",
-      "piece": "FD-001 post",
-      "when": "2026-07-20T15:00:00Z",
-      "status": "ready_local",
+      "piece": "FD-001 · value-first protocol post",
+      "when": "2026-07-20T11:00:00-07:00",
+      "status": "review_rules_before_posting",
       "file": "platforms/reddit/FD-001_release/01_post.md"
     },
     {
       "platform": "youtube",
-      "piece": "FD-002 Soft Habits",
-      "when": "2026-07-20T12:00:00Z",
-      "status": "upcoming",
+      "piece": "FD-002 · Soft Habits Kill Ambition",
+      "when": "2026-07-20T18:00:00-07:00",
+      "status": "qa_hold",
       "file": "platforms/upcoming/FD-002_soft-habits/youtube/"
     },
     {
       "platform": "youtube",
-      "piece": "FD-003 Spy Room",
-      "when": "2026-07-21T12:00:00Z",
-      "status": "upcoming",
+      "piece": "FD-003 · Spy Method Room Read",
+      "when": "2026-07-21T18:00:00-07:00",
+      "status": "qa_hold",
       "file": "platforms/upcoming/FD-003_spy-room-read/youtube/"
     },
     {
       "platform": "youtube",
-      "piece": "FD-004 Mental Fortress",
-      "when": "2026-07-22T12:00:00Z",
-      "status": "upcoming",
+      "piece": "FD-004 · Mental Fortress / Digital Noise",
+      "when": "2026-07-22T18:00:00-07:00",
+      "status": "qa_hold",
       "file": "platforms/upcoming/FD-004_mental-fortress/youtube/"
     }
-  ]
+  ],
+  "performance": {
+    "views_24h": null,
+    "ctr_percent": null,
+    "average_retention_percent": null,
+    "subscriber_delta": null,
+    "revenue_usd": null,
+    "note": "Placeholders remain empty until platform APIs return real data."
+  }
 }

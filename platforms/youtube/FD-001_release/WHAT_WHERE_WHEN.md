@@ -3,7 +3,7 @@
 - **What:** 6:38.96 long-form field report plus one dedicated Short.
 - **Where:** The Tyrrell Codex · channel ID `UCh82kLGeSgdCd1VNEQsZ2pg`.
 - **When:** 2026-07-19 at 6:00 PM America/Los_Angeles, provisional until channel analytics exist.
-- **Files:** `final_long.mp4`, `final_short.mp4`, `thumbnail_final.png`.
+- **Files:** `01_long.mp4`, `02_short.mp4`, `03_thumbnail.png`.
 - **Metadata:** `publish_manifest.json`.
 
 ## Upload checks

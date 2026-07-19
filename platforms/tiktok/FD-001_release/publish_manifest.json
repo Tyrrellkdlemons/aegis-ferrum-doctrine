@@ -1,7 +1,7 @@
 {
   "platform": "tiktok",
   "content_id": "ferrum-doctrine-001",
-  "file": "final_tiktok.mp4",
+  "file": "01_tiktok.mp4",
   "title": "One promise rebuilds self-trust",
   "description": "Stop designing heroic routines you cannot repeat. Pick one realistic promise for 21 days. Miss once? Record why, remove the obstacle, and resume. Discipline is evidence—not theater.",
   "tags": [
@@ -23,5 +23,6 @@
   "status": "ready_local_not_published",
   "schedule_basis": "Provisional evening slot; replace with account analytics when available.",
   "altered_or_synthetic_content": true,
-  "qa_seal": "../../prometheus/v2_seal.json"
+  "qa_seal": "../../../prometheus/v2_seal.json",
+  "pack_path": "platforms/tiktok/FD-001_release/"
 }
