@@ -5,6 +5,7 @@ const STATUS_LABELS = {
   script_complete_media_rework: "SCRIPT READY · MEDIA HOLD",
   outline_complete_media_rework: "OUTLINE · MEDIA HOLD",
   qa_hold: "QA HOLD",
+  review: "REVIEW",
   published: "PUBLISHED"
 };
 

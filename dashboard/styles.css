@@ -229,6 +229,7 @@ code { color: var(--steel); font: 0.72rem "IBM Plex Mono", monospace; overflow-w
 }
 .status--published { border-color: rgba(98, 211, 155, 0.4); color: var(--green); }
 .status--qa_hold,
+.status--review,
 .status--script_complete_media_rework,
 .status--outline_complete_media_rework,
 .status--review_rules_before_posting {

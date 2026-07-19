@@ -6,7 +6,7 @@
   },
   "series": "Ferrum Doctrine",
   "timezone": "America/Los_Angeles",
-  "updated_at": "2026-07-18T19:07:00-07:00",
+  "updated_at": "2026-07-18T19:16:00-07:00",
   "editorial_intensity": {
     "score": 91,
     "label": "UNWATERED",
@@ -22,7 +22,7 @@
   },
   "summary": {
     "ready": 4,
-    "review": 4,
+    "review": 14,
     "published": 0
   },
   "content": [
@@ -57,6 +57,86 @@
       "status": "outline_complete_media_rework",
       "detail": "Outline exists. Render remains on QA hold.",
       "source": "content_core/cycles/FD-004_mental-fortress/01_master_script.md"
+    },
+    {
+      "id": "STICKMAN-01",
+      "title": "Comfort Is a Cage",
+      "type": "vertical combat lesson",
+      "status": "review",
+      "detail": "Local render exists. Awaiting Authoritas and Prometheus review; not scheduled for publication.",
+      "source": "content_core/stickman_lessons/scripts/lesson_01.md"
+    },
+    {
+      "id": "STICKMAN-02",
+      "title": "Respect Is Earned Under Pressure",
+      "type": "vertical combat lesson",
+      "status": "review",
+      "detail": "Local render exists. Awaiting Authoritas and Prometheus review; not scheduled for publication.",
+      "source": "content_core/stickman_lessons/scripts/lesson_02.md"
+    },
+    {
+      "id": "STICKMAN-03",
+      "title": "Your Phone Owns You",
+      "type": "vertical combat lesson",
+      "status": "review",
+      "detail": "Local render exists. Awaiting Authoritas and Prometheus review; not scheduled for publication.",
+      "source": "content_core/stickman_lessons/scripts/lesson_03.md"
+    },
+    {
+      "id": "STICKMAN-04",
+      "title": "Cheap Pleasure Steals Your Frame",
+      "type": "vertical combat lesson",
+      "status": "review",
+      "detail": "Local render exists. Awaiting Authoritas and Prometheus review; not scheduled for publication.",
+      "source": "content_core/stickman_lessons/scripts/lesson_04.md"
+    },
+    {
+      "id": "STICKMAN-05",
+      "title": "Speak Second",
+      "type": "vertical combat lesson",
+      "status": "review",
+      "detail": "Local render exists. Awaiting Authoritas and Prometheus review; not scheduled for publication.",
+      "source": "content_core/stickman_lessons/scripts/lesson_05.md"
+    },
+    {
+      "id": "STICKMAN-06",
+      "title": "Soft Habits Bleed Ambition",
+      "type": "vertical combat lesson",
+      "status": "review",
+      "detail": "Local render exists. Awaiting Authoritas and Prometheus review; not scheduled for publication.",
+      "source": "content_core/stickman_lessons/scripts/lesson_06.md"
+    },
+    {
+      "id": "STICKMAN-07",
+      "title": "Pain Is Tuition",
+      "type": "vertical combat lesson",
+      "status": "review",
+      "detail": "Local render exists. Awaiting Authoritas and Prometheus review; not scheduled for publication.",
+      "source": "content_core/stickman_lessons/scripts/lesson_07.md"
+    },
+    {
+      "id": "STICKMAN-08",
+      "title": "Nobody Is Coming",
+      "type": "vertical combat lesson",
+      "status": "review",
+      "detail": "Local render exists. Awaiting Authoritas and Prometheus review; not scheduled for publication.",
+      "source": "content_core/stickman_lessons/scripts/lesson_08.md"
+    },
+    {
+      "id": "STICKMAN-09",
+      "title": "Options Beat Excuses",
+      "type": "vertical combat lesson",
+      "status": "review",
+      "detail": "Local render exists. Awaiting Authoritas and Prometheus review; not scheduled for publication.",
+      "source": "content_core/stickman_lessons/scripts/lesson_09.md"
+    },
+    {
+      "id": "STICKMAN-10",
+      "title": "One Non-Negotiable",
+      "type": "vertical combat lesson",
+      "status": "review",
+      "detail": "Local render exists. Awaiting Authoritas and Prometheus review; not scheduled for publication.",
+      "source": "content_core/stickman_lessons/scripts/lesson_10.md"
     }
   ],
   "posts": [

@@ -151,3 +151,10 @@ MP4s: assets/final/stickman/lesson_01.mp4 … lesson_10.mp4
 Manifests: platforms/youtube_shorts|instagram_reels|tiktok/stickman/
 Task stickman_forge_cycle_001 → review. Authoritas: audit then clear for Publicator.
 Style: black field, white operative (red belt), gray adversary, sharp pose cuts, demand CTA, sting FERRUM.
+
+## 2026-07-18T19:16:00-07:00 — [DASHBOARD] Stickman inventory added
+
+- Added STICKMAN-01 through STICKMAN-10 as individual `review` cards.
+- None was promoted to ready or scheduled.
+- Dashboard summary: 4 ready · 14 review/hold · 0 published.
+- Validator confirmed all 10 local review files exist.
